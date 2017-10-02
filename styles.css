@@ -29,3 +29,8 @@ ul.menu {
 ul.categories {
 	padding: 6 0 0 0;
 }
+
+#desc {
+	width: 500px;
+	margin: 0 auto;
+}
