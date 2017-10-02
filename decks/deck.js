@@ -1,4 +1,4 @@
-const prepCardName = (cardName) => cardName.toLowerCase().replace(' ', '-').replace(/[^\w-]/, '');
+const prepCardName = (cardName) => cardName.toLowerCase().replace(/ /g, '-').replace(/[^\w-]/, '');
 
 const buildURL = (cardName) => `http://tappedout.net/mtg-card/${prepCardName(cardName)}/`;
 
@@ -6,13 +6,13 @@ const buildCardAnchor = (cardName) => {
 	let link = buildURL(cardName);
 	let anchor = document.createElement('a');
 	anchor.href = link;
-    anchor.innerText = cardName;
+  anchor.innerText = cardName;
 	return anchor;
 }
 
 const buildDeckList = (deckList) => {
   let sortedByType = {}
-  decklist.forEach(card => {
+  deckList.forEach(card => {
   	if (sortedByType[card.type]) {
   		sortedByType[card.type].push(card.name);
   	} else {
@@ -24,17 +24,14 @@ const buildDeckList = (deckList) => {
     sortedByType[type].forEach(cardName => {
       let listItem = document.createElement('li');
       listItem.innerText = buildCardAnchor(cardName);
-      div.append(listItem);
+      div.appendChild(listItem);
     });
   }
 }
 
-const buildDeckPage = (deckID) => {
-  // NEED TO OPEN JSON
-  let deckObj = fetch(new Request(`${deckID}.JSON`)).then(function(response) { return response.json(); });
-  //JSON.parse(`${deckID}.JSON`);
-  console.log(deckObj);
-  document.getElementsByTagName('title').innerText = deckObj.deckName;
+const buildDeckPage = (deckObj) => {
+  let titleItem =  document.getElementsByTagName('title').item(0);
+  titleItem.innerText = deckObj.deckName;
   
   let deckName = document.createElement('h1');
   deckName.innerText = deckObj.deckName;
@@ -42,7 +39,7 @@ const buildDeckPage = (deckID) => {
   
   let deckDesc = document.createElement('p');
   deckDesc.innerText = deckObj.deckDesc;
-  document.getElementById('deck-desc').append(deckDesc);
+  document.getElementById('desc').append(deckDesc);
   
   let comm = document.createElement('h2');
   comm.innerText = 'Commander: ' + deckObj.commander.name;
@@ -62,5 +59,7 @@ const getURLParameter = (sParam) => {
   }
 }
 
-document.onload(buildDeckPage(getURLParameter('deckID')));
-
+fetch(new Request('https://gist.githubusercontent.com/Ocheyo/95f5c9b38df7d9aa698988c62db147c9/raw/4574522e7413a7e7c8c09ef16368505232b721c4/athreos.JSON'))
+  .then(function(response) { 
+    response.json().then(function(result) { buildDeckPage(result); });
+});
