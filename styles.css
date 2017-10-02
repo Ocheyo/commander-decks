@@ -1,0 +1,31 @@
+body {
+	text-align: center;
+	background: #e6ccb3;
+}
+
+h3 {
+	margin: 0 auto;
+	padding: 0 auto;
+	color: #002266;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+nav {
+	display: inline;
+	float: left;
+	width: 200px;
+	border: 2px solid black;
+}
+
+ul.menu {
+	padding: 5 0 5 0;
+}
+
+ul.categories {
+	padding: 6 0 0 0;
+}
