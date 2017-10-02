@@ -23,7 +23,7 @@ const buildDeckList = (deckList) => {
   	let div = document.getElementById(type);
     sortedByType[type].forEach(cardName => {
       let listItem = document.createElement('li');
-      listItem.innerText = buildCardAnchor(cardName);
+      listItem.appendChild(buildCardAnchor(cardName));
       div.appendChild(listItem);
     });
   }
