@@ -1,3 +1,5 @@
+//https://ocheyo.github.io/commander-decks/
+
 const buildLinkList = (myDecks) => {
 	let baseURL = "decks/deck.html?deckID=";
 	let list = document.getElementById('menu');

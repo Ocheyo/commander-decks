@@ -7,6 +7,7 @@ const buildCardAnchor = (cardName) => {
 	let anchor = document.createElement('a');
 	anchor.href = link;
   anchor.innerText = cardName;
+  anchor.target = '_blank';
 	return anchor;
 }
 
