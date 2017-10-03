@@ -7,7 +7,7 @@
     "Aggro",
     "RGW (Naya)"
   ],
-  "description": "Really simple game plan. Ramp, ramp, stomp face.",
+  "desc": "Really simple game plan. Ramp, ramp, stomp face.",
   "commander": {
     "name": "Gahiji, Honored One",
     "category": "creature",
@@ -17,7 +17,7 @@
     "cmc": 5,
     "image": "http://static.tappedout.net/cache/97/7b/977b63db6862ef644bf7c57aeb2425b0.png"
   },
-  "cards": [
+  "deckList": [
     {
       "name": "Acidic Slime",
       "category": "creature",

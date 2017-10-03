@@ -7,7 +7,7 @@
     "Hatebears",
     "RUW (Jeskai, America)"
   ],
-  "description": "Originally sat down to build a friendly deck, one that wanted to be on everyone's team. At some point I took a wrong turn and things went horribly awry, I ended up going in the exact opposite direction.\n\nDecided that instead of sitting down and and trying to fly under the radar, I'll draw all kinds of attention. Whipped together with what wasn't already in other decks. Also a good chance to use cards I always cut in other decks.\n\nThis deck has evolved since it's inception. It definitely falls in the Hatebear category more than I originally intended. I am alright with this, I avoided stax elements. I want to be annoying without being oppressive. I'm also not quick to use Numot's ability. Great utility lands are fair game, but I don't shut off an opponent's color unless Im down to one opponent and am trying to close out the game. Overall I avoided LD and counters due to personal biases.\n\nThis deck has been fun. I didn't become the arch-enemy nearly as much as I expected. It does slow the game down, but doesn't really grind it to a halt. I have considered Silent Arbiter, but think it would halt the game. Any opinions on the Arbiter are welcome.",
+  "desc": "Originally sat down to build a friendly deck, one that wanted to be on everyone's team. At some point I took a wrong turn and things went horribly awry, I ended up going in the exact opposite direction.\n\nDecided that instead of sitting down and and trying to fly under the radar, I'll draw all kinds of attention. Whipped together with what wasn't already in other decks. Also a good chance to use cards I always cut in other decks.\n\nThis deck has evolved since it's inception. It definitely falls in the Hatebear category more than I originally intended. I am alright with this, I avoided stax elements. I want to be annoying without being oppressive. I'm also not quick to use Numot's ability. Great utility lands are fair game, but I don't shut off an opponent's color unless Im down to one opponent and am trying to close out the game. Overall I avoided LD and counters due to personal biases.\n\nThis deck has been fun. I didn't become the arch-enemy nearly as much as I expected. It does slow the game down, but doesn't really grind it to a halt. I have considered Silent Arbiter, but think it would halt the game. Any opinions on the Arbiter are welcome.",
   "commander": {
   	"name": "Numot, the Devestator",
   	"category": "creature",
@@ -17,7 +17,7 @@
   	"cmc": 6,
     "image": "http://static.tappedout.net/cache/e9/92/e992f365ba7ebe75abcf8c7366cd83a9.png"
   },
-  "cards": [
+  "deckList": [
     {
       "name": "Azorius Chancery",
       "category": "land",
