@@ -1,0 +1,718 @@
+{
+  "name": "Maybe I Hate This Game (... Or Just This Group)",
+  "url": "http://tappedout.net/mtg-decks/noone-leaves-happy-not-even-me/",
+  "author": "Ocheyo",
+  "tags": [
+    "Commander / EDH",
+    "Hatebears",
+    "RUW (Jeskai, America)"
+  ],
+  "description": "Originally sat down to build a friendly deck, one that wanted to be on everyone's team. At some point I took a wrong turn and things went horribly awry, I ended up going in the exact opposite direction.\n\nDecided that instead of sitting down and and trying to fly under the radar, I'll draw all kinds of attention. Whipped together with what wasn't already in other decks. Also a good chance to use cards I always cut in other decks.\n\nThis deck has evolved since it's inception. It definitely falls in the Hatebear category more than I originally intended. I am alright with this, I avoided stax elements. I want to be annoying without being oppressive. I'm also not quick to use Numot's ability. Great utility lands are fair game, but I don't shut off an opponent's color unless Im down to one opponent and am trying to close out the game. Overall I avoided LD and counters due to personal biases.\n\nThis deck has been fun. I didn't become the arch-enemy nearly as much as I expected. It does slow the game down, but doesn't really grind it to a halt. I have considered Silent Arbiter, but think it would halt the game. Any opinions on the Arbiter are welcome.",
+  "commander": {
+  	"name": "Numot, the Devestator",
+  	"category": "creature",
+  	"qty": 1,
+  	"color": "gold",
+  	"type": "legendary",
+  	"cmc": 6,
+    "image": "http://static.tappedout.net/cache/e9/92/e992f365ba7ebe75abcf8c7366cd83a9.png"
+  },
+  "cards": [
+    {
+      "name": "Azorius Chancery",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Battlefield Forge",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Boros Garrison",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Command Tower",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Evolving Wilds",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Homeward Path",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Irrigated Farmland",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Island",
+      "category": "land",
+      "qty": "5",
+      "color": "",
+      "type": "basic",
+      "cmc": 0
+    },
+    {
+      "name": "Izzet Boilerworks",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Mana Confluence",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Maze of Ith",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Mountain",
+      "category": "land",
+      "qty": "4",
+      "color": "",
+      "type": "basic",
+      "cmc": 0
+    },
+    {
+      "name": "Mystic Monastery",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Plains",
+      "category": "land",
+      "qty": "6",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Prairie Stream",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Rogue's Passage",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Rupture Spire",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Sejiri Refuge",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Shivan Reef",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Swiftwater Cliffs",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Terramorphic Expanse",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Tranquil Cove",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Transguild Promenade",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Vivid Crag",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Vivid Creek",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Vivid Meadow",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Wind-Scarred Crag",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Fumigate",
+      "category": "sorcery",
+      "qty": "1",
+      "color": "white",
+      "type": "sorcery",
+      "cmc": 5
+    },
+    {
+      "name": "Hour of Reckoning",
+      "category": "sorcery",
+      "qty": "1",
+      "color": "white",
+      "type": "sorcery",
+      "cmc": 7
+    },
+    {
+      "name": "Supreme Verdict",
+      "category": "sorcery",
+      "qty": "1",
+      "color": "gold",
+      "type": "sorcery",
+      "cmc": 4
+    },
+    {
+      "name": "Aven Mindcensor",
+      "category": "creature",
+      "qty": "1",
+      "color": "white",
+      "type": "creature",
+      "cmc": 3
+    },
+    {
+      "name": "Consecrated Sphinx",
+      "category": "creature",
+      "qty": "1",
+      "color": "blue",
+      "type": "creature",
+      "cmc": 6
+    },
+    {
+      "name": "Desolation Giant",
+      "category": "creature",
+      "qty": "1",
+      "color": "red",
+      "type": "creature",
+      "cmc": 4
+    },
+    {
+      "name": "Fatespinner",
+      "category": "creature",
+      "qty": "1",
+      "color": "blue",
+      "type": "creature",
+      "cmc": 3
+    },
+    {
+      "name": "Frost Titan",
+      "category": "creature",
+      "qty": "1",
+      "color": "blue",
+      "type": "creature",
+      "cmc": 6
+    },
+    {
+      "name": "Harsh Mentor",
+      "category": "creature",
+      "qty": "1",
+      "color": "red",
+      "type": "creature",
+      "cmc": 2
+    },
+    {
+      "name": "Icefall Regent",
+      "category": "creature",
+      "qty": "1",
+      "color": "blue",
+      "type": "creature",
+      "cmc": 5
+    },
+    {
+      "name": "Isperia, Supreme Judge",
+      "category": "creature",
+      "qty": "1",
+      "color": "blue",
+      "type": "creature",
+      "cmc": 6
+    },
+    {
+      "name": "Leonin Arbiter",
+      "category": "creature",
+      "qty": "1",
+      "color": "white",
+      "type": "creature",
+      "cmc": 2
+    },
+    {
+      "name": "Linvala, Keeper of Silence",
+      "category": "creature",
+      "qty": "1",
+      "color": "white",
+      "type": "creature",
+      "cmc": 4
+    },
+    {
+      "name": "Mercurial Chemister",
+      "category": "creature",
+      "qty": "1",
+      "color": "red",
+      "type": "creature",
+      "cmc": 5
+    },
+    {
+      "name": "Niv-Mizzet, Dracogenius",
+      "category": "creature",
+      "qty": "1",
+      "color": "blue",
+      "type": "creature",
+      "cmc": 6
+    },
+    {
+      "name": "Phyrexian Metamorph",
+      "category": "creature",
+      "qty": "1",
+      "color": "blue",
+      "type": "artifact",
+      "cmc": 4
+    },
+    {
+      "name": "Scuttlemutt",
+      "category": "creature",
+      "qty": "1",
+      "color": "colorless",
+      "type": "creature",
+      "cmc": 3
+    },
+    {
+      "name": "Spelltithe Enforcer",
+      "category": "creature",
+      "qty": "1",
+      "color": "white",
+      "type": "creature",
+      "cmc": 5
+    },
+    {
+      "name": "Spirit of the Labyrinth",
+      "category": "creature",
+      "qty": "1",
+      "color": "white",
+      "type": "enchantment",
+      "cmc": 2
+    },
+    {
+      "name": "Sun Titan",
+      "category": "creature",
+      "qty": "1",
+      "color": "white",
+      "type": "creature",
+      "cmc": 6
+    },
+    {
+      "name": "Sunblast Angel",
+      "category": "creature",
+      "qty": "1",
+      "color": "white",
+      "type": "creature",
+      "cmc": 6
+    },
+    {
+      "name": "Thalia, Heretic Cathar",
+      "category": "creature",
+      "qty": "1",
+      "color": "white",
+      "type": "legendary",
+      "cmc": 3
+    },
+    {
+      "name": "Tunnel Ignus",
+      "category": "creature",
+      "qty": "1",
+      "color": "red",
+      "type": "creature",
+      "cmc": 2
+    },
+    {
+      "name": "Urabrask the Hidden",
+      "category": "creature",
+      "qty": "1",
+      "color": "red",
+      "type": "creature",
+      "cmc": 5
+    },
+    {
+      "name": "Windborn Muse",
+      "category": "creature",
+      "qty": "1",
+      "color": "white",
+      "type": "creature",
+      "cmc": 4
+    },
+    {
+      "name": "Arcane Laboratory",
+      "category": "enchantment",
+      "qty": "1",
+      "color": "blue",
+      "type": "enchantment",
+      "cmc": 3
+    },
+    {
+      "name": "Blind Obedience",
+      "category": "enchantment",
+      "qty": "1",
+      "color": "white",
+      "type": "enchantment",
+      "cmc": 2
+    },
+    {
+      "name": "Cloud Cover",
+      "category": "enchantment",
+      "qty": "1",
+      "color": "gold",
+      "type": "enchantment",
+      "cmc": 4
+    },
+    {
+      "name": "Darksteel Mutation",
+      "category": "enchantment",
+      "qty": "1",
+      "color": "white",
+      "type": "enchantment",
+      "cmc": 2
+    },
+    {
+      "name": "Frozen AEther",
+      "category": "enchantment",
+      "qty": "1",
+      "color": "blue",
+      "type": "enchantment",
+      "cmc": 4
+    },
+    {
+      "name": "Ghostly Prison",
+      "category": "enchantment",
+      "qty": "1",
+      "color": "white",
+      "type": "enchantment",
+      "cmc": 3
+    },
+    {
+      "name": "Prison Term",
+      "category": "enchantment",
+      "qty": "1",
+      "color": "white",
+      "type": "enchantment",
+      "cmc": 3
+    },
+    {
+      "name": "Propaganda",
+      "category": "enchantment",
+      "qty": "1",
+      "color": "blue",
+      "type": "enchantment",
+      "cmc": 3
+    },
+    {
+      "name": "Rest in Peace",
+      "category": "enchantment",
+      "qty": "1",
+      "color": "white",
+      "type": "enchantment",
+      "cmc": 2
+    },
+    {
+      "name": "Rhystic Study",
+      "category": "enchantment",
+      "qty": "1",
+      "color": "blue",
+      "type": "enchantment",
+      "cmc": 3
+    },
+    {
+      "name": "Rule of Law",
+      "category": "enchantment",
+      "qty": "1",
+      "color": "white",
+      "type": "enchantment",
+      "cmc": 3
+    },
+    {
+      "name": "Azorius Signet",
+      "category": "artifact",
+      "qty": "1",
+      "color": "colorless",
+      "type": "artifact",
+      "cmc": 2
+    },
+    {
+      "name": "Boros Signet",
+      "category": "artifact",
+      "qty": "1",
+      "color": "colorless",
+      "type": "artifact",
+      "cmc": 2
+    },
+    {
+      "name": "Chromatic Lantern",
+      "category": "artifact",
+      "qty": "1",
+      "color": "colorless",
+      "type": "artifact",
+      "cmc": 3
+    },
+    {
+      "name": "Commander's Sphere",
+      "category": "artifact",
+      "qty": "1",
+      "color": "colorless",
+      "type": "artifact",
+      "cmc": 3
+    },
+    {
+      "name": "Damping Matrix",
+      "category": "artifact",
+      "qty": "1",
+      "color": "colorless",
+      "type": "artifact",
+      "cmc": 3
+    },
+    {
+      "name": "Darksteel Ingot",
+      "category": "artifact",
+      "qty": "1",
+      "color": "colorless",
+      "type": "artifact",
+      "cmc": 3
+    },
+    {
+      "name": "Grafdigger's Cage",
+      "category": "artifact",
+      "qty": "1",
+      "color": "colorless",
+      "type": "artifact",
+      "cmc": 1
+    },
+    {
+      "name": "Izzet Signet",
+      "category": "artifact",
+      "qty": "1",
+      "color": "colorless",
+      "type": "artifact",
+      "cmc": 2
+    },
+    {
+      "name": "Jeskai Banner",
+      "category": "artifact",
+      "qty": "1",
+      "color": "colorless",
+      "type": "artifact",
+      "cmc": 3
+    },
+    {
+      "name": "Lightning Greaves",
+      "category": "artifact",
+      "qty": "1",
+      "color": "colorless",
+      "type": "artifact",
+      "cmc": 2
+    },
+    {
+      "name": "Mana Web",
+      "category": "artifact",
+      "qty": "1",
+      "color": "colorless",
+      "type": "artifact",
+      "cmc": 3
+    },
+    {
+      "name": "Mind Stone",
+      "category": "artifact",
+      "qty": "1",
+      "color": "colorless",
+      "type": "artifact",
+      "cmc": 2
+    },
+    {
+      "name": "Neurok Stealthsuit",
+      "category": "artifact",
+      "qty": "1",
+      "color": "colorless",
+      "type": "artifact",
+      "cmc": 2
+    },
+    {
+      "name": "Norn's Annex",
+      "category": "artifact",
+      "qty": "1",
+      "color": "white",
+      "type": "artifact",
+      "cmc": 5
+    },
+    {
+      "name": "Psychogenic Probe",
+      "category": "artifact",
+      "qty": "1",
+      "color": "colorless",
+      "type": "artifact",
+      "cmc": 2
+    },
+    {
+      "name": "Sol Ring",
+      "category": "artifact",
+      "qty": "1",
+      "color": "colorless",
+      "type": "artifact",
+      "cmc": 1
+    },
+    {
+      "name": "Swiftfoot Boots",
+      "category": "artifact",
+      "qty": "1",
+      "color": "colorless",
+      "type": "artifact",
+      "cmc": 2
+    },
+    {
+      "name": "Whispersilk Cloak",
+      "category": "artifact",
+      "qty": "1",
+      "color": "colorless",
+      "type": "artifact",
+      "cmc": 3
+    },
+    {
+      "name": "AEtherize",
+      "category": "instant",
+      "qty": "1",
+      "color": "blue",
+      "type": "instant",
+      "cmc": 4
+    },
+    {
+      "name": "Hallowed Moonlight",
+      "category": "instant",
+      "qty": "1",
+      "color": "white",
+      "type": "instant",
+      "cmc": 2
+    },
+    {
+      "name": "Insidious Will",
+      "category": "instant",
+      "qty": "1",
+      "color": "blue",
+      "type": "instant",
+      "cmc": 4
+    },
+    {
+      "name": "Path to Exile",
+      "category": "instant",
+      "qty": "1",
+      "color": "white",
+      "type": "instant",
+      "cmc": 1
+    },
+    {
+      "name": "Return to Dust",
+      "category": "instant",
+      "qty": "1",
+      "color": "white",
+      "type": "instant",
+      "cmc": 4
+    },
+    {
+      "name": "Wild Ricochet",
+      "category": "instant",
+      "qty": "1",
+      "color": "red",
+      "type": "instant",
+      "cmc": 4
+    }
+  ]
+}

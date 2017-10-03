@@ -1,24 +1,23 @@
 {
-  "name": "Commander Lara Croft, Grave Raider",
-  "url": "http://tappedout.net/mtg-decks/commander-croft/",
+  "name": "Gahijisaurus Wrex",
+  "url": "http://tappedout.net/mtg-decks/gahijisaurus-rex/",
   "author": "Ocheyo",
   "tags": [
     "Commander / EDH",
-    "BG (Golgari)",
-    "Control",
-    "Reanimator"
+    "Aggro",
+    "RGW (Naya)"
   ],
-  "desc": "Raiding graves like Lara Croft. I love me some graveyard shenanigans.\n\nEarly creatures that can sacrifice themselves gets the experience started. Catacomb Sifter and From Beyond are great enablers. It's important to get miles out of a land tutor such as Sakura-Tribe Elder by reanimating it repeatedly, Solemn Simulacrum is also a great choice for this. Heart Warden and Yavimaya Elder sacrifice themselves for a card making them perfect fits. With the mana in place, things like Sidisi, Undead Vizier, Rune-Scarred Demon, or Birthing Pod help find the big pieces. Butcher of Malakir is a headache on any table, I also run Grave Pact and Dictate of Erebos since it's an important effect for the deck. Grim Haruspex and Harvester of Souls provide excellent card advantage to keep the grave train rolling. I run Darksteel Plate, Lightning Greaves, and Sylvan Safekeeper to protect Meren and keep the engine chugging along.\n\nMaybe board is a list of possible inclusions. As always comments and suggestions welcome.",
+  "description": "Really simple game plan. Ramp, ramp, stomp face.",
   "commander": {
-    "name": "Meren of Clan Nel Toth",
+    "name": "Gahiji, Honored One",
     "category": "creature",
     "qty": 1,
     "color": "gold",
     "type": "legendary",
-    "cmc": 4,
-    "image": "http://static.tappedout.net/mtg-cards-2/commander-anthology/meren-of-clan-nel-toth/mtg-cards/_user-added/pieguy396-meren-15048054950.jpg"
+    "cmc": 5,
+    "image": "http://static.tappedout.net/cache/97/7b/977b63db6862ef644bf7c57aeb2425b0.png"
   },
-  "deckList": [
+  "cards": [
     {
       "name": "Acidic Slime",
       "category": "creature",
@@ -26,6 +25,30 @@
       "color": "green",
       "type": "creature",
       "cmc": 5
+    },
+    {
+      "name": "Armada Wurm",
+      "category": "creature",
+      "qty": "1",
+      "color": "gold",
+      "type": "creature",
+      "cmc": 6
+    },
+    {
+      "name": "Aurelia, the Warleader",
+      "category": "creature",
+      "qty": "1",
+      "color": "gold",
+      "type": "creature",
+      "cmc": 6
+    },
+    {
+      "name": "Avenger of Zendikar",
+      "category": "creature",
+      "qty": "1",
+      "color": "green",
+      "type": "creature",
+      "cmc": 7
     },
     {
       "name": "Bane of Progress",
@@ -36,14 +59,6 @@
       "cmc": 6
     },
     {
-      "name": "Big Game Hunter",
-      "category": "creature",
-      "qty": "1",
-      "color": "black",
-      "type": "creature",
-      "cmc": 3
-    },
-    {
       "name": "Birds of Paradise",
       "category": "creature",
       "qty": "1",
@@ -52,15 +67,15 @@
       "cmc": 1
     },
     {
-      "name": "Butcher of Malakir",
+      "name": "Craterhoof Behemoth",
       "category": "creature",
       "qty": "1",
-      "color": "black",
+      "color": "green",
       "type": "creature",
-      "cmc": 7
+      "cmc": 8
     },
     {
-      "name": "Catacomb Sifter",
+      "name": "Dauntless Escort",
       "category": "creature",
       "qty": "1",
       "color": "gold",
@@ -68,28 +83,12 @@
       "cmc": 3
     },
     {
-      "name": "Caustic Caterpillar",
-      "category": "creature",
-      "qty": "1",
-      "color": "green",
-      "type": "creature",
-      "cmc": 1
-    },
-    {
-      "name": "Deathcap Cultivator",
+      "name": "Druid of the Anima",
       "category": "creature",
       "qty": "1",
       "color": "green",
       "type": "creature",
       "cmc": 2
-    },
-    {
-      "name": "Disciple of Bolas",
-      "category": "creature",
-      "qty": "1",
-      "color": "black",
-      "type": "creature",
-      "cmc": 4
     },
     {
       "name": "Duplicant",
@@ -100,6 +99,14 @@
       "cmc": 6
     },
     {
+      "name": "Elesh Norn, Grand Cenobite",
+      "category": "creature",
+      "qty": "1",
+      "color": "white",
+      "type": "creature",
+      "cmc": 7
+    },
+    {
       "name": "Eternal Witness",
       "category": "creature",
       "qty": "1",
@@ -108,31 +115,55 @@
       "cmc": 3
     },
     {
-      "name": "Fleshbag Marauder",
+      "name": "Gisela, Blade of Goldnight",
       "category": "creature",
       "qty": "1",
-      "color": "black",
+      "color": "gold",
+      "type": "creature",
+      "cmc": 7
+    },
+    {
+      "name": "Goring Ceratops",
+      "category": "creature",
+      "qty": "1",
+      "color": "white",
+      "type": "creature",
+      "cmc": 7
+    },
+    {
+      "name": "Harmonic Sliver",
+      "category": "creature",
+      "qty": "1",
+      "color": "gold",
       "type": "creature",
       "cmc": 3
     },
     {
-      "name": "Grim Haruspex",
+      "name": "Inferno Titan",
       "category": "creature",
       "qty": "1",
-      "color": "black",
-      "type": "creature",
-      "cmc": 3
-    },
-    {
-      "name": "Harvester of Souls",
-      "category": "creature",
-      "qty": "1",
-      "color": "black",
+      "color": "red",
       "type": "creature",
       "cmc": 6
     },
     {
-      "name": "Heart Warden",
+      "name": "Iroas, God of Victory",
+      "category": "creature",
+      "qty": "1",
+      "color": "red",
+      "type": "legendary",
+      "cmc": 4
+    },
+    {
+      "name": "Karmic Guide",
+      "category": "creature",
+      "qty": "1",
+      "color": "white",
+      "type": "creature",
+      "cmc": 5
+    },
+    {
+      "name": "Manaweft Sliver",
       "category": "creature",
       "qty": "1",
       "color": "green",
@@ -140,50 +171,26 @@
       "cmc": 2
     },
     {
-      "name": "Jarad, Golgari Lich Lord",
+      "name": "Ogre Battledriver",
       "category": "creature",
       "qty": "1",
-      "color": "gold",
+      "color": "red",
       "type": "creature",
       "cmc": 4
     },
     {
-      "name": "Massacre Wurm",
+      "name": "Pathbreaker Ibex",
       "category": "creature",
       "qty": "1",
-      "color": "black",
+      "color": "green",
       "type": "creature",
       "cmc": 6
     },
     {
-      "name": "Merciless Executioner",
+      "name": "Qasali Pridemage",
       "category": "creature",
       "qty": "1",
-      "color": "black",
-      "type": "creature",
-      "cmc": 3
-    },
-    {
-      "name": "Phyrexian Delver",
-      "category": "creature",
-      "qty": "1",
-      "color": "black",
-      "type": "creature",
-      "cmc": 5
-    },
-    {
-      "name": "Puppeteer Clique",
-      "category": "creature",
-      "qty": "1",
-      "color": "black",
-      "type": "creature",
-      "cmc": 5
-    },
-    {
-      "name": "Quirion Elves",
-      "category": "creature",
-      "qty": "1",
-      "color": "green",
+      "color": "gold",
       "type": "creature",
       "cmc": 2
     },
@@ -196,26 +203,34 @@
       "cmc": 3
     },
     {
-      "name": "Rune-Scarred Demon",
+      "name": "Restoration Angel",
       "category": "creature",
       "qty": "1",
-      "color": "black",
+      "color": "white",
       "type": "creature",
-      "cmc": 7
+      "cmc": 4
     },
     {
-      "name": "Sadistic Hypnotist",
+      "name": "Saffi Eriksdotter",
       "category": "creature",
       "qty": "1",
-      "color": "black",
+      "color": "gold",
       "type": "creature",
-      "cmc": 5
+      "cmc": 2
     },
     {
-      "name": "Sakura-Tribe Elder",
+      "name": "Scavenging Ooze",
       "category": "creature",
       "qty": "1",
       "color": "green",
+      "type": "creature",
+      "cmc": 2
+    },
+    {
+      "name": "Selfless Spirit",
+      "category": "creature",
+      "qty": "1",
+      "color": "white",
       "type": "creature",
       "cmc": 2
     },
@@ -228,20 +243,12 @@
       "cmc": 3
     },
     {
-      "name": "Sheoldred, Whispering One",
+      "name": "Skyshroud Elf",
       "category": "creature",
       "qty": "1",
-      "color": "black",
+      "color": "green",
       "type": "creature",
-      "cmc": 7
-    },
-    {
-      "name": "Sidisi, Undead Vizier",
-      "category": "creature",
-      "qty": "1",
-      "color": "black",
-      "type": "creature",
-      "cmc": 5
+      "cmc": 2
     },
     {
       "name": "Solemn Simulacrum",
@@ -252,42 +259,58 @@
       "cmc": 4
     },
     {
-      "name": "Spore Frog",
+      "name": "Somberwald Sage",
       "category": "creature",
       "qty": "1",
       "color": "green",
       "type": "creature",
-      "cmc": 1
+      "cmc": 3
+    },
+    {
+      "name": "Sun Titan",
+      "category": "creature",
+      "qty": "1",
+      "color": "white",
+      "type": "creature",
+      "cmc": 6
+    },
+    {
+      "name": "Sunblast Angel",
+      "category": "creature",
+      "qty": "1",
+      "color": "white",
+      "type": "creature",
+      "cmc": 6
+    },
+    {
+      "name": "Sylvan Caryatid",
+      "category": "creature",
+      "qty": "1",
+      "color": "green",
+      "type": "creature",
+      "cmc": 2
+    },
+    {
+      "name": "Thunderfoot Baloth",
+      "category": "creature",
+      "qty": "1",
+      "color": "green",
+      "type": "creature",
+      "cmc": 6
+    },
+    {
+      "name": "Urabrask the Hidden",
+      "category": "creature",
+      "qty": "1",
+      "color": "red",
+      "type": "creature",
+      "cmc": 5
     },
     {
       "name": "Utopia Tree",
       "category": "creature",
       "qty": "1",
       "color": "green",
-      "type": "creature",
-      "cmc": 2
-    },
-    {
-      "name": "Vampire Hexmage",
-      "category": "creature",
-      "qty": "1",
-      "color": "black",
-      "type": "creature",
-      "cmc": 2
-    },
-    {
-      "name": "Viscera Seer",
-      "category": "creature",
-      "qty": "1",
-      "color": "black",
-      "type": "creature",
-      "cmc": 1
-    },
-    {
-      "name": "Winding Constrictor",
-      "category": "creature",
-      "qty": "1",
-      "color": "gold",
       "type": "creature",
       "cmc": 2
     },
@@ -300,20 +323,12 @@
       "cmc": 8
     },
     {
-      "name": "World Breaker",
+      "name": "Xenagos, God of Revels",
       "category": "creature",
       "qty": "1",
-      "color": "green",
-      "type": "creature",
-      "cmc": 7
-    },
-    {
-      "name": "Yahenni, Undying Partisan",
-      "category": "creature",
-      "qty": "1",
-      "color": "black",
-      "type": "creature",
-      "cmc": 3
+      "color": "red",
+      "type": "legendary",
+      "cmc": 5
     },
     {
       "name": "Yavimaya Elder",
@@ -324,7 +339,7 @@
       "cmc": 3
     },
     {
-      "name": "Blooming Marsh",
+      "name": "Battlefield Forge",
       "category": "land",
       "qty": "1",
       "color": "",
@@ -332,7 +347,7 @@
       "cmc": 0
     },
     {
-      "name": "Bojuka Bog",
+      "name": "Brushland",
       "category": "land",
       "qty": "1",
       "color": "",
@@ -340,7 +355,31 @@
       "cmc": 0
     },
     {
-      "name": "Command Beacon",
+      "name": "Canopy Vista",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Cinder Glade",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "City of Brass",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Clifftop Retreat",
       "category": "land",
       "qty": "1",
       "color": "",
@@ -358,21 +397,13 @@
     {
       "name": "Forest",
       "category": "land",
-      "qty": "8",
+      "qty": "5",
       "color": "",
       "type": "basic",
       "cmc": 0
     },
     {
-      "name": "Geier Reach Sanitarium",
-      "category": "land",
-      "qty": "1",
-      "color": "",
-      "type": "legendary",
-      "cmc": 0
-    },
-    {
-      "name": "Golgari Rot Farm",
+      "name": "Homeward Path",
       "category": "land",
       "qty": "1",
       "color": "",
@@ -380,7 +411,7 @@
       "cmc": 0
     },
     {
-      "name": "High Market",
+      "name": "Karplusan Forest",
       "category": "land",
       "qty": "1",
       "color": "",
@@ -388,7 +419,7 @@
       "cmc": 0
     },
     {
-      "name": "Hissing Quagmire",
+      "name": "Kessig Wolf Run",
       "category": "land",
       "qty": "1",
       "color": "",
@@ -396,7 +427,7 @@
       "cmc": 0
     },
     {
-      "name": "Jungle Hollow",
+      "name": "Mana Confluence",
       "category": "land",
       "qty": "1",
       "color": "",
@@ -404,55 +435,23 @@
       "cmc": 0
     },
     {
-      "name": "Llanowar Wastes",
+      "name": "Mountain",
       "category": "land",
-      "qty": "1",
-      "color": "",
-      "type": "land",
-      "cmc": 0
-    },
-    {
-      "name": "Marsh Flats",
-      "category": "land",
-      "qty": "1",
-      "color": "",
-      "type": "land",
-      "cmc": 0
-    },
-    {
-      "name": "Overgrown Tomb",
-      "category": "land",
-      "qty": "1",
-      "color": "",
-      "type": "land",
-      "cmc": 0
-    },
-    {
-      "name": "Phyrexian Tower",
-      "category": "land",
-      "qty": "1",
-      "color": "",
-      "type": "legendary",
-      "cmc": 0
-    },
-    {
-      "name": "Polluted Delta",
-      "category": "land",
-      "qty": "1",
-      "color": "",
-      "type": "land",
-      "cmc": 0
-    },
-    {
-      "name": "Swamp",
-      "category": "land",
-      "qty": "8",
+      "qty": "2",
       "color": "",
       "type": "basic",
       "cmc": 0
     },
     {
-      "name": "Tainted Wood",
+      "name": "Plains",
+      "category": "land",
+      "qty": "4",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Rogue's Passage",
       "category": "land",
       "qty": "1",
       "color": "",
@@ -460,7 +459,7 @@
       "cmc": 0
     },
     {
-      "name": "Tectonic Edge",
+      "name": "Rootbound Crag",
       "category": "land",
       "qty": "1",
       "color": "",
@@ -468,7 +467,7 @@
       "cmc": 0
     },
     {
-      "name": "Temple of Malady",
+      "name": "Sacred Foundry",
       "category": "land",
       "qty": "1",
       "color": "",
@@ -476,15 +475,7 @@
       "cmc": 0
     },
     {
-      "name": "Verdant Catacombs",
-      "category": "land",
-      "qty": "1",
-      "color": "",
-      "type": "land",
-      "cmc": 0
-    },
-    {
-      "name": "Volrath's Stronghold",
+      "name": "Shinka, the Bloodsoaked Keep",
       "category": "land",
       "qty": "1",
       "color": "",
@@ -492,7 +483,79 @@
       "cmc": 0
     },
     {
-      "name": "Woodland Cemetery",
+      "name": "Skarrg, the Rage Pits",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Slayers' Stronghold",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Stomping Ground",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Sunpetal Grove",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Temple Garden",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Temple of Abandon",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Temple of Plenty",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Temple of Triumph",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Windswept Heath",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Wooded Foothills",
       "category": "land",
       "qty": "1",
       "color": "",
@@ -508,151 +571,63 @@
       "cmc": 0
     },
     {
-      "name": "Freyalise, Llanowar's Fury",
-      "category": "planeswalker",
-      "qty": "1",
-      "color": "green",
-      "type": "planeswalker",
-      "cmc": 5
-    },
-    {
-      "name": "Liliana, Death's Majesty",
-      "category": "planeswalker",
-      "qty": "1",
-      "color": "black",
-      "type": "planeswalker",
-      "cmc": 5
-    },
-    {
-      "name": "Liliana Vess",
-      "category": "planeswalker",
-      "qty": "1",
-      "color": "black",
-      "type": "planeswalker",
-      "cmc": 5
-    },
-    {
-      "name": "All Is Dust",
+      "name": "Austere Command",
       "category": "sorcery",
       "qty": "1",
-      "color": "colorless",
-      "type": "tribal",
+      "color": "white",
+      "type": "sorcery",
+      "cmc": 6
+    },
+    {
+      "name": "Cultivate",
+      "category": "sorcery",
+      "qty": "1",
+      "color": "green",
+      "type": "sorcery",
+      "cmc": 3
+    },
+    {
+      "name": "Search for Tomorrow",
+      "category": "sorcery",
+      "qty": "1",
+      "color": "green",
+      "type": "sorcery",
+      "cmc": 3
+    },
+    {
+      "name": "Seasons Past",
+      "category": "sorcery",
+      "qty": "1",
+      "color": "green",
+      "type": "sorcery",
+      "cmc": 6
+    },
+    {
+      "name": "Selvala's Stampede",
+      "category": "sorcery",
+      "qty": "1",
+      "color": "green",
+      "type": "sorcery",
+      "cmc": 6
+    },
+    {
+      "name": "Tooth and Nail",
+      "category": "sorcery",
+      "qty": "1",
+      "color": "green",
+      "type": "sorcery",
       "cmc": 7
     },
     {
-      "name": "Damnation",
+      "name": "Vandalblast",
       "category": "sorcery",
       "qty": "1",
-      "color": "black",
-      "type": "sorcery",
-      "cmc": 4
-    },
-    {
-      "name": "Demonic Tutor",
-      "category": "sorcery",
-      "qty": "1",
-      "color": "black",
-      "type": "sorcery",
-      "cmc": 2
-    },
-    {
-      "name": "Diabolic Intent",
-      "category": "sorcery",
-      "qty": "1",
-      "color": "black",
-      "type": "sorcery",
-      "cmc": 2
-    },
-    {
-      "name": "Jarad's Orders",
-      "category": "sorcery",
-      "qty": "1",
-      "color": "gold",
-      "type": "sorcery",
-      "cmc": 4
-    },
-    {
-      "name": "Reanimate",
-      "category": "sorcery",
-      "qty": "1",
-      "color": "black",
+      "color": "red",
       "type": "sorcery",
       "cmc": 1
     },
     {
-      "name": "Victimize",
-      "category": "sorcery",
-      "qty": "1",
-      "color": "black",
-      "type": "sorcery",
-      "cmc": 3
-    },
-    {
-      "name": "Animate Dead",
-      "category": "enchantment",
-      "qty": "1",
-      "color": "black",
-      "type": "enchantment",
-      "cmc": 2
-    },
-    {
-      "name": "Dictate of Erebos",
-      "category": "enchantment",
-      "qty": "1",
-      "color": "black",
-      "type": "enchantment",
-      "cmc": 5
-    },
-    {
-      "name": "From Beyond",
-      "category": "enchantment",
-      "qty": "1",
-      "color": "green",
-      "type": "enchantment",
-      "cmc": 4
-    },
-    {
-      "name": "Grave Pact",
-      "category": "enchantment",
-      "qty": "1",
-      "color": "black",
-      "type": "enchantment",
-      "cmc": 4
-    },
-    {
-      "name": "Necromancy",
-      "category": "enchantment",
-      "qty": "1",
-      "color": "black",
-      "type": "enchantment",
-      "cmc": 3
-    },
-    {
-      "name": "Phyrexian Arena",
-      "category": "enchantment",
-      "qty": "1",
-      "color": "black",
-      "type": "enchantment",
-      "cmc": 3
-    },
-    {
-      "name": "Song of the Dryads",
-      "category": "enchantment",
-      "qty": "1",
-      "color": "green",
-      "type": "enchantment",
-      "cmc": 3
-    },
-    {
-      "name": "Birthing Pod",
-      "category": "artifact",
-      "qty": "1",
-      "color": "green",
-      "type": "artifact",
-      "cmc": 4
-    },
-    {
-      "name": "Champion's Helm",
+      "name": "Chromatic Lantern",
       "category": "artifact",
       "qty": "1",
       "color": "colorless",
@@ -660,7 +635,7 @@
       "cmc": 3
     },
     {
-      "name": "Darksteel Plate",
+      "name": "Cultivator's Caravan",
       "category": "artifact",
       "qty": "1",
       "color": "colorless",
@@ -668,12 +643,12 @@
       "cmc": 3
     },
     {
-      "name": "Golgari Signet",
+      "name": "Darksteel Ingot",
       "category": "artifact",
       "qty": "1",
       "color": "colorless",
       "type": "artifact",
-      "cmc": 2
+      "cmc": 3
     },
     {
       "name": "Lightning Greaves",
@@ -684,7 +659,7 @@
       "cmc": 2
     },
     {
-      "name": "Skullclamp",
+      "name": "Sol Ring",
       "category": "artifact",
       "qty": "1",
       "color": "colorless",
@@ -692,12 +667,84 @@
       "cmc": 1
     },
     {
-      "name": "Sol Ring",
-      "category": "artifact",
+      "name": "Eladamri's Call",
+      "category": "instant",
       "qty": "1",
-      "color": "colorless",
-      "type": "artifact",
+      "color": "gold",
+      "type": "instant",
+      "cmc": 2
+    },
+    {
+      "name": "Path to Exile",
+      "category": "instant",
+      "qty": "1",
+      "color": "white",
+      "type": "instant",
       "cmc": 1
+    },
+    {
+      "name": "Tithe",
+      "category": "instant",
+      "qty": "1",
+      "color": "white",
+      "type": "instant",
+      "cmc": 1
+    },
+    {
+      "name": "Worldly Tutor",
+      "category": "instant",
+      "qty": "1",
+      "color": "green",
+      "type": "instant",
+      "cmc": 1
+    },
+    {
+      "name": "Garruk, Primal Hunter",
+      "category": "planeswalker",
+      "qty": "1",
+      "color": "green",
+      "type": "planeswalker",
+      "cmc": 5
+    },
+    {
+      "name": "Garruk Wildspeaker",
+      "category": "planeswalker",
+      "qty": "1",
+      "color": "green",
+      "type": "planeswalker",
+      "cmc": 4
+    },
+    {
+      "name": "Sarkhan Vol",
+      "category": "planeswalker",
+      "qty": "1",
+      "color": "red",
+      "type": "planeswalker",
+      "cmc": 4
+    },
+    {
+      "name": "Xenagos, the Reveler",
+      "category": "planeswalker",
+      "qty": "1",
+      "color": "red",
+      "type": "planeswalker",
+      "cmc": 4
+    },
+    {
+      "name": "Mirari's Wake",
+      "category": "enchantment",
+      "qty": "1",
+      "color": "gold",
+      "type": "enchantment",
+      "cmc": 5
+    },
+    {
+      "name": "Song of the Dryads",
+      "category": "enchantment",
+      "qty": "1",
+      "color": "green",
+      "type": "enchantment",
+      "cmc": 3
     }
   ]
 }

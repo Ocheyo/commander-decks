@@ -1,9 +1,9 @@
 {
 	"decks": [
-		{"name": "Athreos on The River Styx", "link": "https://gist.githubusercontent.com/Ocheyo/95f5c9b38df7d9aa698988c62db147c9/raw/4d9361c016f463fd6a0fe30e1b50b56e58c40671/athreos.JSON"},
-		{"name": "Ghahijisaurus Wrex", "link": ""},
-		{"name": "Commander Lara Croft, Grave Raider", "link": "https://gist.githubusercontent.com/Ocheyo/58d47e41e10b0004cb69cc6127fcbbbf/raw/a37f33b086e7f3637bf7b53e6038a77cfc0ef7d2/meren.JSON"},
-		{"name": "Maybe I Hate This Game", "link": ""},
-		{"name": "Super Dragon Friends", "link": "https://gist.githubusercontent.com/Ocheyo/5f73d5e36f62e71b6e3a7218e68aeece/raw/4320a05b839ff2f640c04c0b48738fc49eb55c94/prossh.JSON"}
+		{"name": "Athreos on The River Styx", "link": "https://gist.githubusercontent.com/Ocheyo/95f5c9b38df7d9aa698988c62db147c9/raw/27a6e1328090c247819b44a3ec266a24a2246826/athreos.JSON"},
+		{"name": "Ghahijisaurus Wrex", "link": "https://gist.githubusercontent.com/Ocheyo/2025637a9de0f929f3825b2651788657/raw/0fb6ffe91999f6f05e2f70f4e5b0a8f34bb1ade7/gahiji.JSON"},
+		{"name": "Commander Lara Croft, Grave Raider", "link": "https://gist.githubusercontent.com/Ocheyo/58d47e41e10b0004cb69cc6127fcbbbf/raw/853936195c79c5c1baa15f3dafd57566532868d2/meren.JSON"},
+		{"name": "Maybe I Hate This Game", "link": "https://gist.githubusercontent.com/Ocheyo/26d9fe58f8d58bf6c6bf8f97faebc166/raw/3d8729d5f3a5847b540010f1bf5977094750db0a/numot.JSON"},
+		{"name": "Super Dragon Friends", "link": "https://gist.githubusercontent.com/Ocheyo/5f73d5e36f62e71b6e3a7218e68aeece/raw/89a703fa698d19b6eac833e1fed8c30e1d67d930/prossh.JSON"}
 	]
 }

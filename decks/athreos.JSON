@@ -12,7 +12,8 @@
     "qty": 1,
     "color": "gold",
     "type": "legendary",
-    "cmc": 3
+    "cmc": 3,
+    "image": "http://static.tappedout.net/mtg-cards/journey-into-nyx/athreos-god-of-passage_6.jpg"
   },
   "deckList": [
     {
