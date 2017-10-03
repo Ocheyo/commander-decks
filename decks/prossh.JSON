@@ -1,0 +1,711 @@
+{
+  "name": "Super Dragon Friends",
+  "url": "http://tappedout.net/mtg-decks/super-dragon-friends-1/",
+  "author": "Ocheyo",
+  "tags": [
+    "Commander / EDH",
+    "BRG (Jund)",
+    "Combo",
+    "Superfriends",
+    "Tokens"
+  ],
+  "desc": "deck:This is the deck I let my inner Timmy run wild with. I have a list on MTGO that is tuned for the Prossh, Skyraider of Kher + Xenagos, God of Revels / Atarka, World Render combo. For my irl version of this deck, while the combo is still there, I just wanted to run a bunch of dragons and planeswalkers. There isn't an overly copious amount of either, but enough for the theme to be obvious. There is also a mild token theme running throughout.\n\nSuggestions always welcome.",
+  "commander": {
+    "name": "Prossh, Skyraider of Kher",
+    "category": "creature",
+    "qty": 1,
+    "color": "gold",
+    "type": "legendary",
+    "cmc": 6
+  },
+  "deckList": [
+    {
+      "name": "Blood Crypt",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Bloodstained Mire",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Cinder Glade",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "City of Brass",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Command Tower",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Dragonskull Summit",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Forest",
+      "category": "land",
+      "qty": "8",
+      "color": "",
+      "type": "basic",
+      "cmc": 0
+    },
+    {
+      "name": "Homeward Path",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Karplusan Forest",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Kher Keep",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "legendary",
+      "cmc": 0
+    },
+    {
+      "name": "Llanowar Wastes",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Mana Confluence",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Mountain",
+      "category": "land",
+      "qty": "4",
+      "color": "",
+      "type": "basic",
+      "cmc": 0
+    },
+    {
+      "name": "Overgrown Tomb",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Reflecting Pool",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Rootbound Crag",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Smoldering Marsh",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Stomping Ground",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Swamp",
+      "category": "land",
+      "qty": "4",
+      "color": "",
+      "type": "basic",
+      "cmc": 0
+    },
+    {
+      "name": "Tectonic Edge",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Verdant Catacombs",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Westvale Abbey",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Wooded Foothills",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Woodland Cemetery",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Yavimaya Hollow",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "legendary",
+      "cmc": 0
+    },
+    {
+      "name": "Animate Dead",
+      "category": "enchantment",
+      "qty": "1",
+      "color": "black",
+      "type": "enchantment",
+      "cmc": 2
+    },
+    {
+      "name": "Doubling Season",
+      "category": "enchantment",
+      "qty": "1",
+      "color": "green",
+      "type": "enchantment",
+      "cmc": 5
+    },
+    {
+      "name": "Goblin Bombardment",
+      "category": "enchantment",
+      "qty": "1",
+      "color": "red",
+      "type": "enchantment",
+      "cmc": 2
+    },
+    {
+      "name": "Phyrexian Arena",
+      "category": "enchantment",
+      "qty": "1",
+      "color": "black",
+      "type": "enchantment",
+      "cmc": 3
+    },
+    {
+      "name": "Song of the Dryads",
+      "category": "enchantment",
+      "qty": "1",
+      "color": "green",
+      "type": "enchantment",
+      "cmc": 3
+    },
+    {
+      "name": "Hero's Downfall",
+      "category": "instant",
+      "qty": "1",
+      "color": "black",
+      "type": "instant",
+      "cmc": 3
+    },
+    {
+      "name": "Putrefy",
+      "category": "instant",
+      "qty": "1",
+      "color": "gold",
+      "type": "instant",
+      "cmc": 3
+    },
+    {
+      "name": "Acidic Slime",
+      "category": "creature",
+      "qty": "1",
+      "color": "green",
+      "type": "creature",
+      "cmc": 5
+    },
+    {
+      "name": "Atarka, World Render",
+      "category": "creature",
+      "qty": "1",
+      "color": "gold",
+      "type": "creature",
+      "cmc": 7
+    },
+    {
+      "name": "Birds of Paradise",
+      "category": "creature",
+      "qty": "1",
+      "color": "green",
+      "type": "creature",
+      "cmc": 1
+    },
+    {
+      "name": "Bladewing the Risen",
+      "category": "creature",
+      "qty": "1",
+      "color": "gold",
+      "type": "creature",
+      "cmc": 7
+    },
+    {
+      "name": "Deathbringer Regent",
+      "category": "creature",
+      "qty": "1",
+      "color": "black",
+      "type": "creature",
+      "cmc": 7
+    },
+    {
+      "name": "Dragon Broodmother",
+      "category": "creature",
+      "qty": "1",
+      "color": "red",
+      "type": "creature",
+      "cmc": 6
+    },
+    {
+      "name": "Eternal Witness",
+      "category": "creature",
+      "qty": "1",
+      "color": "green",
+      "type": "creature",
+      "cmc": 3
+    },
+    {
+      "name": "Kolaghan, the Storm's Fury",
+      "category": "creature",
+      "qty": "1",
+      "color": "gold",
+      "type": "creature",
+      "cmc": 5
+    },
+    {
+      "name": "Ogre Battledriver",
+      "category": "creature",
+      "qty": "1",
+      "color": "red",
+      "type": "creature",
+      "cmc": 4
+    },
+    {
+      "name": "Purphoros, God of the Forge",
+      "category": "creature",
+      "qty": "1",
+      "color": "red",
+      "type": "legendary",
+      "cmc": 4
+    },
+    {
+      "name": "Reclamation Sage",
+      "category": "creature",
+      "qty": "1",
+      "color": "green",
+      "type": "creature",
+      "cmc": 3
+    },
+    {
+      "name": "Scavenging Ooze",
+      "category": "creature",
+      "qty": "1",
+      "color": "green",
+      "type": "creature",
+      "cmc": 2
+    },
+    {
+      "name": "Shaman of Forgotten Ways",
+      "category": "creature",
+      "qty": "1",
+      "color": "green",
+      "type": "creature",
+      "cmc": 3
+    },
+    {
+      "name": "Solemn Simulacrum",
+      "category": "creature",
+      "qty": "1",
+      "color": "colorless",
+      "type": "artifact",
+      "cmc": 4
+    },
+    {
+      "name": "Somberwald Sage",
+      "category": "creature",
+      "qty": "1",
+      "color": "green",
+      "type": "creature",
+      "cmc": 3
+    },
+    {
+      "name": "Steel Hellkite",
+      "category": "creature",
+      "qty": "1",
+      "color": "colorless",
+      "type": "artifact",
+      "cmc": 6
+    },
+    {
+      "name": "Sylvan Caryatid",
+      "category": "creature",
+      "qty": "1",
+      "color": "green",
+      "type": "creature",
+      "cmc": 2
+    },
+    {
+      "name": "Thunderbreak Regent",
+      "category": "creature",
+      "qty": "1",
+      "color": "red",
+      "type": "creature",
+      "cmc": 4
+    },
+    {
+      "name": "Thundermaw Hellkite",
+      "category": "creature",
+      "qty": "1",
+      "color": "red",
+      "type": "creature",
+      "cmc": 5
+    },
+    {
+      "name": "Urabrask the Hidden",
+      "category": "creature",
+      "qty": "1",
+      "color": "red",
+      "type": "creature",
+      "cmc": 5
+    },
+    {
+      "name": "Utopia Tree",
+      "category": "creature",
+      "qty": "1",
+      "color": "green",
+      "type": "creature",
+      "cmc": 2
+    },
+    {
+      "name": "Utvara Hellkite",
+      "category": "creature",
+      "qty": "1",
+      "color": "red",
+      "type": "creature",
+      "cmc": 8
+    },
+    {
+      "name": "Wasitora, Nekoru Queen",
+      "category": "creature",
+      "qty": "1",
+      "color": "gold",
+      "type": "creature",
+      "cmc": 5
+    },
+    {
+      "name": "Xenagos, God of Revels",
+      "category": "creature",
+      "qty": "1",
+      "color": "red",
+      "type": "legendary",
+      "cmc": 5
+    },
+    {
+      "name": "Chromatic Lantern",
+      "category": "artifact",
+      "qty": "1",
+      "color": "colorless",
+      "type": "artifact",
+      "cmc": 3
+    },
+    {
+      "name": "Fellwar Stone",
+      "category": "artifact",
+      "qty": "1",
+      "color": "colorless",
+      "type": "artifact",
+      "cmc": 2
+    },
+    {
+      "name": "Skullclamp",
+      "category": "artifact",
+      "qty": "1",
+      "color": "colorless",
+      "type": "artifact",
+      "cmc": 1
+    },
+    {
+      "name": "Sol Ring",
+      "category": "artifact",
+      "qty": "1",
+      "color": "colorless",
+      "type": "artifact",
+      "cmc": 1
+    },
+    {
+      "name": "Talisman of Impulse",
+      "category": "artifact",
+      "qty": "1",
+      "color": "colorless",
+      "type": "artifact",
+      "cmc": 2
+    },
+    {
+      "name": "Talisman of Indulgence",
+      "category": "artifact",
+      "qty": "1",
+      "color": "colorless",
+      "type": "artifact",
+      "cmc": 2
+    },
+    {
+      "name": "Chainer's Edict",
+      "category": "sorcery",
+      "qty": "1",
+      "color": "black",
+      "type": "sorcery",
+      "cmc": 2
+    },
+    {
+      "name": "Crux of Fate",
+      "category": "sorcery",
+      "qty": "1",
+      "color": "black",
+      "type": "sorcery",
+      "cmc": 5
+    },
+    {
+      "name": "Cultivate",
+      "category": "sorcery",
+      "qty": "1",
+      "color": "green",
+      "type": "sorcery",
+      "cmc": 3
+    },
+    {
+      "name": "Demonic Tutor",
+      "category": "sorcery",
+      "qty": "1",
+      "color": "black",
+      "type": "sorcery",
+      "cmc": 2
+    },
+    {
+      "name": "Kodama's Reach",
+      "category": "sorcery",
+      "qty": "1",
+      "color": "green",
+      "type": "sorcery",
+      "cmc": 3
+    },
+    {
+      "name": "Maelstrom Pulse",
+      "category": "sorcery",
+      "qty": "1",
+      "color": "gold",
+      "type": "sorcery",
+      "cmc": 3
+    },
+    {
+      "name": "Reanimate",
+      "category": "sorcery",
+      "qty": "1",
+      "color": "black",
+      "type": "sorcery",
+      "cmc": 1
+    },
+    {
+      "name": "Release the Gremlins",
+      "category": "sorcery",
+      "qty": "1",
+      "color": "red",
+      "type": "sorcery",
+      "cmc": 1
+    },
+    {
+      "name": "Rishkar's Expertise",
+      "category": "sorcery",
+      "qty": "1",
+      "color": "green",
+      "type": "sorcery",
+      "cmc": 6
+    },
+    {
+      "name": "Sever the Bloodline",
+      "category": "sorcery",
+      "qty": "1",
+      "color": "black",
+      "type": "sorcery",
+      "cmc": 4
+    },
+    {
+      "name": "Traverse the Ulvenwald",
+      "category": "sorcery",
+      "qty": "1",
+      "color": "green",
+      "type": "sorcery",
+      "cmc": 1
+    },
+    {
+      "name": "Vandalblast",
+      "category": "sorcery",
+      "qty": "1",
+      "color": "red",
+      "type": "sorcery",
+      "cmc": 1
+    },
+    {
+      "name": "Arlinn Kord",
+      "category": "planeswalker",
+      "qty": "1",
+      "color": "red",
+      "type": "planeswalker",
+      "cmc": 4
+    },
+    {
+      "name": "Chandra, Flamecaller",
+      "category": "planeswalker",
+      "qty": "1",
+      "color": "red",
+      "type": "planeswalker",
+      "cmc": 6
+    },
+    {
+      "name": "Chandra, Torch of Defiance",
+      "category": "planeswalker",
+      "qty": "1",
+      "color": "red",
+      "type": "planeswalker",
+      "cmc": 4
+    },
+    {
+      "name": "Daretti, Ingenious Iconoclast",
+      "category": "planeswalker",
+      "qty": "1",
+      "color": "red",
+      "type": "planeswalker",
+      "cmc": 3
+    },
+    {
+      "name": "Freyalise, Llanowar's Fury",
+      "category": "planeswalker",
+      "qty": "1",
+      "color": "green",
+      "type": "planeswalker",
+      "cmc": 5
+    },
+    {
+      "name": "Garruk Wildspeaker",
+      "category": "planeswalker",
+      "qty": "1",
+      "color": "green",
+      "type": "planeswalker",
+      "cmc": 4
+    },
+    {
+      "name": "Karn Liberated",
+      "category": "planeswalker",
+      "qty": "1",
+      "color": "colorless",
+      "type": "planeswalker",
+      "cmc": 7
+    },
+    {
+      "name": "Liliana Vess",
+      "category": "planeswalker",
+      "qty": "1",
+      "color": "black",
+      "type": "planeswalker",
+      "cmc": 5
+    },
+    {
+      "name": "Nissa, Voice of Zendikar",
+      "category": "planeswalker",
+      "qty": "1",
+      "color": "green",
+      "type": "planeswalker",
+      "cmc": 3
+    },
+    {
+      "name": "Ob Nixilis Reignited",
+      "category": "planeswalker",
+      "qty": "1",
+      "color": "black",
+      "type": "planeswalker",
+      "cmc": 5
+    },
+    {
+      "name": "Sarkhan Vol",
+      "category": "planeswalker",
+      "qty": "1",
+      "color": "red",
+      "type": "planeswalker",
+      "cmc": 4
+    },
+    {
+      "name": "Xenagos, the Reveler",
+      "category": "planeswalker",
+      "qty": "1",
+      "color": "red",
+      "type": "planeswalker",
+      "cmc": 4
+    }
+  ]
+}

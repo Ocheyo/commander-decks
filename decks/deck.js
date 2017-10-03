@@ -13,48 +13,48 @@ const buildCardAnchor = (cardName) => {
 const sortByType = (deckList) => {
   let sortedByType = {};
   deckList.forEach(card => {
-    if (sortedByType[card.type]) {
-      sortedByType[card.type].push(card.name);
+    if (sortedByType[card.category]) {
+      sortedByType[card.category].push(card.name);
     } else {
-      sortedByType[card.type] = [card.name];
+      sortedByType[card.category] = [card.name];
     }
   });
   return sortedByType;
 }
 
-const createCategory = (type) => {
+const createCategory = (category) => {
   let listDiv = document.getElementById('deck-list');
   let h3 = document.createElement('h3');
-  h3.innerText = type.replace(type[0], type.charAt(0).toUpperCase()) + ':';
+  h3.innerText = category.replace(category[0], category.charAt(0).toUpperCase()) + ':';
   listDiv.append(h3);
   let typeList = document.createElement('ul');
-  typeList.id = type;
+  typeList.id = category;
   listDiv.append(typeList);
 }
 
 const buildDeckList = (deckList) => {
   let sortedByType = sortByType(deckList);
-  for (type in sortedByType) {
-    createCategory(type);
-  	let category = document.getElementById(type);
-    sortedByType[type].forEach(cardName => {
+  for (category in sortedByType) {
+    createCategory(category);
+  	let typeList = document.getElementById(category);
+    sortedByType[category].forEach(cardName => {
       let listItem = document.createElement('li');
       listItem.appendChild(buildCardAnchor(cardName));
-      category.appendChild(listItem);
+      typeList.appendChild(listItem);
     });
   }
 }
 
 const buildDeckPage = (deckObj) => {
   let titleItem =  document.getElementsByTagName('title').item(0);
-  titleItem.innerText = deckObj.deckName;
+  titleItem.innerText = deckObj.name;
   
   let deckName = document.createElement('h1');
-  deckName.innerText = deckObj.deckName;
+  deckName.innerText = deckObj.name;
   document.getElementById('deck-name').append(deckName);
   
   let deckDesc = document.createElement('p');
-  deckDesc.innerText = deckObj.deckDesc;
+  deckDesc.innerText = deckObj.desc;
   document.getElementById('desc').append(deckDesc);
   
   let comm = document.createElement('h2');
@@ -75,7 +75,7 @@ const getURLParameter = (sParam) => {
   }
 }
 
-fetch(new Request('https://gist.githubusercontent.com/Ocheyo/95f5c9b38df7d9aa698988c62db147c9/raw/4574522e7413a7e7c8c09ef16368505232b721c4/athreos.JSON'))
+fetch(new Request(getURLParameter('deckID')))
   .then(function(response) { 
     response.json().then(function(result) { buildDeckPage(result); });
 });

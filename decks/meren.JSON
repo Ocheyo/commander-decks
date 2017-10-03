@@ -1,92 +1,702 @@
 {
-	"deckName": "Commander Lara Croft, Grave Raider",
-	"deckDesc": "Raiding graves like Lara Croft. I love me some graveyard shenanigans. Early creatures that can sacrifice themselves gets the experience started. Catacomb Sifter and From Beyond are great enablers. It's important to get miles out of a land tutor such as Sakura-Tribe Elder by reanimating it repeatedly, Solemn Simulacrum is also a great choice for this. Heart Warden and Yavimaya Elder sacrifice themselves for a card making them perfect fits. With the mana in place, things like Sidisi, Undead Vizier, Rune-Scarred Demon, or Birthing Pod help find the big pieces. Butcher of Malakir is a headache on any table, I also run Grave Pact and Dictate of Erebos since it's an important effect for the deck. Grim Haruspex and Harvester of Souls provide excellent card advantage to keep the grave train rolling. I run Darksteel Plate, Lightning Greaves, and Sylvan Safekeeper to protect Meren and keep the engine chugging along. Maybe board is a list of possible inclusions. As always comments and suggestions welcome.",
-	"commander": {"name": "Meren of Clan Nel Toth", "type": "creature", "cmc": 4, "color": "bg"}, 
-	"deck-list": [
-		{"name": "Acidic Slime",				"type": "creature",		"cmc": 5, "color": "g"},
-		{"name": "All Is Dust",					"type": "sorcery",		"cmc": 7},
-		{"name": "Animate Dead",				"type": "enchantment",	"cmc": 2, "color": "b"},
-		{"name": "Bane of Progress",			"type": "creature",		"cmc": 6, "color": "g"},
-		{"name": "Big Game Hunter",				"type": "creature",		"cmc": 3, "color": "b"},
-		{"name": "Birds of Paradise",			"type": "creature",		"cmc": 1, "color": "g"},
-		{"name": "Birthing Pod",				"type": "artifact",		"cmc": 4, "color": "g"},
-		{"name": "Blooming Marsh",				"type": "land"},
-		{"name": "Bojuka Bog",					"type": "land"},
-		{"name": "Butcher of Malakir",			"type": "creature",		"cmc": 7, "color": "b"},
-		{"name": "Catacomb Sifter",				"type": "creature",		"cmc": 3, "color": "bg"},
-		{"name": "Caustic Caterpillar",			"type": "creature",		"cmc": 1, "color": "g"},
-		{"name": "Champion's Helm",				"type": "artifact",		"cmc": 5},
-		{"name": "Command Beacon",				"type": "land"},
-		{"name": "Command Tower",				"type": "land"},
-		{"name": "Damnation",					"type": "sorcery",		"cmc": 4, "color": "b"},
-		{"name": "Darksteel Plate",				"type": "artifact",		"cmc": 3},
-		{"name": "Deathcap Cultivator",			"type": "creature",		"cmc": 2, "color": "g"},
-		{"name": "Demonic Tutor",				"type": "sorcery",		"cmc": 2, "color": "b"},
-		{"name": "Diabolic Intent",				"type": "sorcery",		"cmc": 2, "color": "b"},
-		{"name": "Dictate of Erebos",			"type": "enchantment",	"cmc": 5, "color": "b"},
-		{"name": "Disciple of Bolas",			"type": "creature",		"cmc": 4, "color": "b"},
-		{"name": "Duplicant",					"type": "creature",		"cmc": 6},
-		{"name": "Eternal Witness",				"type": "creature",		"cmc": 3, "color": "g"},
-		{"name": "Fleshbag Marauder",			"type": "creature",		"cmc": 3, "color": "b"},
-		{"name": "Forest",						"type": "land",			"qty": 8},
-		{"name": "Freyalise, Llanowar's Fury",	"type": "planeswalker",	"cmc": 5, "color": "g"},
-		{"name": "From Beyond",					"type": "enchantment",	"cmc": 4},
-		{"name": "Geier Reach Sanitarium",		"type": "land"},
-		{"name": "Golgari Rot Farm",			"type": "land"},
-		{"name": "Golgari Signet",				"type": "artifact",		"cmc": 2},
-		{"name": "Grave Pact",					"type": "enchantment",	"cmc": 4, "color": "b"},
-		{"name": "Grim Haruspex",				"type": "creature",		"cmc": 3, "color": "b"},
-		{"name": "Harvester of Souls",			"type": "creature",		"cmc": 6, "color": "b"},
-		{"name": "Heart Warden",				"type": "creature",		"cmc": 2, "color": "g"},
-		{"name": "High Market",					"type": "land"},
-		{"name": "Hissing Quagmire",			"type": "land"},
-		{"name": "Jarad's Orders",				"type": "sorcery",		"cmc": 4, "color": "bg"},
-		{"name": "Jarad, Golgari Lich Lord",	"type": "creature",		"cmc": 4, "color": "bg"},
-		{"name": "Jungle Hollow",				"type": "land"},
-		{"name": "Lightning Greaves",			"type": "artifact",		"cmc": 2},
-		{"name": "Liliana Vess",				"type": "planeswalker",	"cmc": 5, "color": "b"},
-		{"name": "Llanowar Wastes",				"type": "land"},
-		{"name": "Marsh Flats",					"type": "land"},
-		{"name": "Massacre Wurm",				"type": "creature",		"cmc": 6, "color": "b"},
-		{"name": "Merciless Executioner",		"type": "creature",		"cmc": 3, "color": "b"},
-		{"name": "Necromancy",					"type": "enchantment",	"cmc": 3, "color": "b"},
-		{"name": "Overgrown Tomb",				"type": "land"},
-		{"name": "Phyrexian Arena",				"type": "enchantment", 	"cmc": 3, "color": "b"},
-		{"name": "Phyrexian Delver",			"type": "creature",		"cmc": 5, "color": "b"},
-		{"name": "Phyrexian Tower",				"type": "land"},
-		{"name": "Polluted Delta",				"type": "land"},
-		{"name": "Puppeteer Clique",			"type": "creature",		"cmc": 5, "color": "b"},
-		{"name": "Quirion Elves",				"type": "creature",		"cmc": 2, "color": "g"},
-		{"name": "Reanimate",					"type": "sorcery",		"cmc": 1, "color": "b"},
-		{"name": "Reclamation Sage",			"type": "creature",		"cmc": 3, "color": "g"},
-		{"name": "Rune-Scarred Demon",			"type": "creature",		"cmc": 7, "color": "b"},
-		{"name": "Sadistic Hypnotist",			"type": "creature",		"cmc": 5, "color": "b"},
-		{"name": "Sakura-Tribe Elder",			"type": "creature",		"cmc": 2, "color": "g"},
-		{"name": "Shaman of Forgotten Ways",	"type": "creature",		"cmc": 3, "color": "g"},
-		{"name": "Sheoldred, Whispering One",	"type": "creature",		"cmc": 7, "color": "b"},
-		{"name": "Sidisi, Undead Vizier",		"type": "creature",		"cmc": 5, "color": "b"},
-		{"name": "Skullclamp",					"type": "artifact",		"cmc": 1},
-		{"name": "Sol Ring",					"type": "artifact",		"cmc": 1},
-		{"name": "Solemn Simulacrum",			"type": "creature",		"cmc": 4},
-		{"name": "Song of the Dryads",			"type": "enchantment",	"cmc": 3},
-		{"name": "Spore Frog",					"type": "creature",		"cmc": 1, "color": "g"},
-		{"name": "Swamp",						"type": "land",			"qty": 8},
-		{"name": "Sylvan Safekeeper",			"type": "creature",		"cmc": 1, "color": "g"},
-		{"name": "Tainted Wood",				"type": "land"},
-		{"name": "Tectonic Edge",				"type": "land"},
-		{"name": "Temple of Malady",			"type": "land"},
-		{"name": "Utopia Tree",					"type":	"creature",		"cmc": 2, "color": "g"},
-		{"name": "Vampire Hexmage",				"type": "creature",		"cmc": 2, "color": "b"},
-		{"name": "Verdant Catacombs",			"type": "land"},
-		{"name": "Victimize",					"type": "sorcery",		"cmc": 3, "color": "b"},
-		{"name": "Viscera Seer",				"type": "creature",		"cmc": 1, "color": "b"},
-		{"name": "Volrath's Stronghold",		"type": "land"},
-		{"name": "Winding Constrictor",			"type": "creature",		"cmc": 2, "color": "bg"},
-		{"name": "Woodfall Primus",				"type": "creature",		"cmc": 8, "color": "g"},
-		{"name": "Woodland Cemetery",			"type": "land"},
-		{"name": "World Breaker",				"type": "creature",		"cmc": 7},
-		{"name": "Yahenni, Undying Partisan",	"type": "creature",		"cmc": 3, "color": "b"},
-		{"name": "Yavimaya Elder",				"type": "creature",		"cmc": 3, "color": "g"},
-		{"name": "Yavimaya Hollow",				"type": "land"}
-	]
+  "name": "Commander Lara Croft, Grave Raider",
+  "url": "http://tappedout.net/mtg-decks/commander-croft/",
+  "author": "Ocheyo",
+  "tags": [
+    "Commander / EDH",
+    "BG (Golgari)",
+    "Control",
+    "Reanimator"
+  ],
+  "desc": "Raiding graves like Lara Croft. I love me some graveyard shenanigans.\n\nEarly creatures that can sacrifice themselves gets the experience started. Catacomb Sifter and From Beyond are great enablers. It's important to get miles out of a land tutor such as Sakura-Tribe Elder by reanimating it repeatedly, Solemn Simulacrum is also a great choice for this. Heart Warden and Yavimaya Elder sacrifice themselves for a card making them perfect fits. With the mana in place, things like Sidisi, Undead Vizier, Rune-Scarred Demon, or Birthing Pod help find the big pieces. Butcher of Malakir is a headache on any table, I also run Grave Pact and Dictate of Erebos since it's an important effect for the deck. Grim Haruspex and Harvester of Souls provide excellent card advantage to keep the grave train rolling. I run Darksteel Plate, Lightning Greaves, and Sylvan Safekeeper to protect Meren and keep the engine chugging along.\n\nMaybe board is a list of possible inclusions. As always comments and suggestions welcome.",
+  "commander": {
+    "name": "Meren of Clan Nel Toth",
+    "category": "creature",
+    "qty": 1,
+    "color": "gold",
+    "type": "legendary",
+    "cmc": 4
+  },
+  "deckList": [
+    {
+      "name": "Acidic Slime",
+      "category": "creature",
+      "qty": "1",
+      "color": "green",
+      "type": "creature",
+      "cmc": 5
+    },
+    {
+      "name": "Bane of Progress",
+      "category": "creature",
+      "qty": "1",
+      "color": "green",
+      "type": "creature",
+      "cmc": 6
+    },
+    {
+      "name": "Big Game Hunter",
+      "category": "creature",
+      "qty": "1",
+      "color": "black",
+      "type": "creature",
+      "cmc": 3
+    },
+    {
+      "name": "Birds of Paradise",
+      "category": "creature",
+      "qty": "1",
+      "color": "green",
+      "type": "creature",
+      "cmc": 1
+    },
+    {
+      "name": "Butcher of Malakir",
+      "category": "creature",
+      "qty": "1",
+      "color": "black",
+      "type": "creature",
+      "cmc": 7
+    },
+    {
+      "name": "Catacomb Sifter",
+      "category": "creature",
+      "qty": "1",
+      "color": "gold",
+      "type": "creature",
+      "cmc": 3
+    },
+    {
+      "name": "Caustic Caterpillar",
+      "category": "creature",
+      "qty": "1",
+      "color": "green",
+      "type": "creature",
+      "cmc": 1
+    },
+    {
+      "name": "Deathcap Cultivator",
+      "category": "creature",
+      "qty": "1",
+      "color": "green",
+      "type": "creature",
+      "cmc": 2
+    },
+    {
+      "name": "Disciple of Bolas",
+      "category": "creature",
+      "qty": "1",
+      "color": "black",
+      "type": "creature",
+      "cmc": 4
+    },
+    {
+      "name": "Duplicant",
+      "category": "creature",
+      "qty": "1",
+      "color": "colorless",
+      "type": "artifact",
+      "cmc": 6
+    },
+    {
+      "name": "Eternal Witness",
+      "category": "creature",
+      "qty": "1",
+      "color": "green",
+      "type": "creature",
+      "cmc": 3
+    },
+    {
+      "name": "Fleshbag Marauder",
+      "category": "creature",
+      "qty": "1",
+      "color": "black",
+      "type": "creature",
+      "cmc": 3
+    },
+    {
+      "name": "Grim Haruspex",
+      "category": "creature",
+      "qty": "1",
+      "color": "black",
+      "type": "creature",
+      "cmc": 3
+    },
+    {
+      "name": "Harvester of Souls",
+      "category": "creature",
+      "qty": "1",
+      "color": "black",
+      "type": "creature",
+      "cmc": 6
+    },
+    {
+      "name": "Heart Warden",
+      "category": "creature",
+      "qty": "1",
+      "color": "green",
+      "type": "creature",
+      "cmc": 2
+    },
+    {
+      "name": "Jarad, Golgari Lich Lord",
+      "category": "creature",
+      "qty": "1",
+      "color": "gold",
+      "type": "creature",
+      "cmc": 4
+    },
+    {
+      "name": "Massacre Wurm",
+      "category": "creature",
+      "qty": "1",
+      "color": "black",
+      "type": "creature",
+      "cmc": 6
+    },
+    {
+      "name": "Merciless Executioner",
+      "category": "creature",
+      "qty": "1",
+      "color": "black",
+      "type": "creature",
+      "cmc": 3
+    },
+    {
+      "name": "Phyrexian Delver",
+      "category": "creature",
+      "qty": "1",
+      "color": "black",
+      "type": "creature",
+      "cmc": 5
+    },
+    {
+      "name": "Puppeteer Clique",
+      "category": "creature",
+      "qty": "1",
+      "color": "black",
+      "type": "creature",
+      "cmc": 5
+    },
+    {
+      "name": "Quirion Elves",
+      "category": "creature",
+      "qty": "1",
+      "color": "green",
+      "type": "creature",
+      "cmc": 2
+    },
+    {
+      "name": "Reclamation Sage",
+      "category": "creature",
+      "qty": "1",
+      "color": "green",
+      "type": "creature",
+      "cmc": 3
+    },
+    {
+      "name": "Rune-Scarred Demon",
+      "category": "creature",
+      "qty": "1",
+      "color": "black",
+      "type": "creature",
+      "cmc": 7
+    },
+    {
+      "name": "Sadistic Hypnotist",
+      "category": "creature",
+      "qty": "1",
+      "color": "black",
+      "type": "creature",
+      "cmc": 5
+    },
+    {
+      "name": "Sakura-Tribe Elder",
+      "category": "creature",
+      "qty": "1",
+      "color": "green",
+      "type": "creature",
+      "cmc": 2
+    },
+    {
+      "name": "Shaman of Forgotten Ways",
+      "category": "creature",
+      "qty": "1",
+      "color": "green",
+      "type": "creature",
+      "cmc": 3
+    },
+    {
+      "name": "Sheoldred, Whispering One",
+      "category": "creature",
+      "qty": "1",
+      "color": "black",
+      "type": "creature",
+      "cmc": 7
+    },
+    {
+      "name": "Sidisi, Undead Vizier",
+      "category": "creature",
+      "qty": "1",
+      "color": "black",
+      "type": "creature",
+      "cmc": 5
+    },
+    {
+      "name": "Solemn Simulacrum",
+      "category": "creature",
+      "qty": "1",
+      "color": "colorless",
+      "type": "artifact",
+      "cmc": 4
+    },
+    {
+      "name": "Spore Frog",
+      "category": "creature",
+      "qty": "1",
+      "color": "green",
+      "type": "creature",
+      "cmc": 1
+    },
+    {
+      "name": "Utopia Tree",
+      "category": "creature",
+      "qty": "1",
+      "color": "green",
+      "type": "creature",
+      "cmc": 2
+    },
+    {
+      "name": "Vampire Hexmage",
+      "category": "creature",
+      "qty": "1",
+      "color": "black",
+      "type": "creature",
+      "cmc": 2
+    },
+    {
+      "name": "Viscera Seer",
+      "category": "creature",
+      "qty": "1",
+      "color": "black",
+      "type": "creature",
+      "cmc": 1
+    },
+    {
+      "name": "Winding Constrictor",
+      "category": "creature",
+      "qty": "1",
+      "color": "gold",
+      "type": "creature",
+      "cmc": 2
+    },
+    {
+      "name": "Woodfall Primus",
+      "category": "creature",
+      "qty": "1",
+      "color": "green",
+      "type": "creature",
+      "cmc": 8
+    },
+    {
+      "name": "World Breaker",
+      "category": "creature",
+      "qty": "1",
+      "color": "green",
+      "type": "creature",
+      "cmc": 7
+    },
+    {
+      "name": "Yahenni, Undying Partisan",
+      "category": "creature",
+      "qty": "1",
+      "color": "black",
+      "type": "creature",
+      "cmc": 3
+    },
+    {
+      "name": "Yavimaya Elder",
+      "category": "creature",
+      "qty": "1",
+      "color": "green",
+      "type": "creature",
+      "cmc": 3
+    },
+    {
+      "name": "Blooming Marsh",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Bojuka Bog",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Command Beacon",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Command Tower",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Forest",
+      "category": "land",
+      "qty": "8",
+      "color": "",
+      "type": "basic",
+      "cmc": 0
+    },
+    {
+      "name": "Geier Reach Sanitarium",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "legendary",
+      "cmc": 0
+    },
+    {
+      "name": "Golgari Rot Farm",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "High Market",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Hissing Quagmire",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Jungle Hollow",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Llanowar Wastes",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Marsh Flats",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Overgrown Tomb",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Phyrexian Tower",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "legendary",
+      "cmc": 0
+    },
+    {
+      "name": "Polluted Delta",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Swamp",
+      "category": "land",
+      "qty": "8",
+      "color": "",
+      "type": "basic",
+      "cmc": 0
+    },
+    {
+      "name": "Tainted Wood",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Tectonic Edge",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Temple of Malady",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Verdant Catacombs",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Volrath's Stronghold",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "legendary",
+      "cmc": 0
+    },
+    {
+      "name": "Woodland Cemetery",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Yavimaya Hollow",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "legendary",
+      "cmc": 0
+    },
+    {
+      "name": "Freyalise, Llanowar's Fury",
+      "category": "planeswalker",
+      "qty": "1",
+      "color": "green",
+      "type": "planeswalker",
+      "cmc": 5
+    },
+    {
+      "name": "Liliana, Death's Majesty",
+      "category": "planeswalker",
+      "qty": "1",
+      "color": "black",
+      "type": "planeswalker",
+      "cmc": 5
+    },
+    {
+      "name": "Liliana Vess",
+      "category": "planeswalker",
+      "qty": "1",
+      "color": "black",
+      "type": "planeswalker",
+      "cmc": 5
+    },
+    {
+      "name": "All Is Dust",
+      "category": "sorcery",
+      "qty": "1",
+      "color": "colorless",
+      "type": "tribal",
+      "cmc": 7
+    },
+    {
+      "name": "Damnation",
+      "category": "sorcery",
+      "qty": "1",
+      "color": "black",
+      "type": "sorcery",
+      "cmc": 4
+    },
+    {
+      "name": "Demonic Tutor",
+      "category": "sorcery",
+      "qty": "1",
+      "color": "black",
+      "type": "sorcery",
+      "cmc": 2
+    },
+    {
+      "name": "Diabolic Intent",
+      "category": "sorcery",
+      "qty": "1",
+      "color": "black",
+      "type": "sorcery",
+      "cmc": 2
+    },
+    {
+      "name": "Jarad's Orders",
+      "category": "sorcery",
+      "qty": "1",
+      "color": "gold",
+      "type": "sorcery",
+      "cmc": 4
+    },
+    {
+      "name": "Reanimate",
+      "category": "sorcery",
+      "qty": "1",
+      "color": "black",
+      "type": "sorcery",
+      "cmc": 1
+    },
+    {
+      "name": "Victimize",
+      "category": "sorcery",
+      "qty": "1",
+      "color": "black",
+      "type": "sorcery",
+      "cmc": 3
+    },
+    {
+      "name": "Animate Dead",
+      "category": "enchantment",
+      "qty": "1",
+      "color": "black",
+      "type": "enchantment",
+      "cmc": 2
+    },
+    {
+      "name": "Dictate of Erebos",
+      "category": "enchantment",
+      "qty": "1",
+      "color": "black",
+      "type": "enchantment",
+      "cmc": 5
+    },
+    {
+      "name": "From Beyond",
+      "category": "enchantment",
+      "qty": "1",
+      "color": "green",
+      "type": "enchantment",
+      "cmc": 4
+    },
+    {
+      "name": "Grave Pact",
+      "category": "enchantment",
+      "qty": "1",
+      "color": "black",
+      "type": "enchantment",
+      "cmc": 4
+    },
+    {
+      "name": "Necromancy",
+      "category": "enchantment",
+      "qty": "1",
+      "color": "black",
+      "type": "enchantment",
+      "cmc": 3
+    },
+    {
+      "name": "Phyrexian Arena",
+      "category": "enchantment",
+      "qty": "1",
+      "color": "black",
+      "type": "enchantment",
+      "cmc": 3
+    },
+    {
+      "name": "Song of the Dryads",
+      "category": "enchantment",
+      "qty": "1",
+      "color": "green",
+      "type": "enchantment",
+      "cmc": 3
+    },
+    {
+      "name": "Birthing Pod",
+      "category": "artifact",
+      "qty": "1",
+      "color": "green",
+      "type": "artifact",
+      "cmc": 4
+    },
+    {
+      "name": "Champion's Helm",
+      "category": "artifact",
+      "qty": "1",
+      "color": "colorless",
+      "type": "artifact",
+      "cmc": 3
+    },
+    {
+      "name": "Darksteel Plate",
+      "category": "artifact",
+      "qty": "1",
+      "color": "colorless",
+      "type": "artifact",
+      "cmc": 3
+    },
+    {
+      "name": "Golgari Signet",
+      "category": "artifact",
+      "qty": "1",
+      "color": "colorless",
+      "type": "artifact",
+      "cmc": 2
+    },
+    {
+      "name": "Lightning Greaves",
+      "category": "artifact",
+      "qty": "1",
+      "color": "colorless",
+      "type": "artifact",
+      "cmc": 2
+    },
+    {
+      "name": "Skullclamp",
+      "category": "artifact",
+      "qty": "1",
+      "color": "colorless",
+      "type": "artifact",
+      "cmc": 1
+    },
+    {
+      "name": "Sol Ring",
+      "category": "artifact",
+      "qty": "1",
+      "color": "colorless",
+      "type": "artifact",
+      "cmc": 1
+    }
+  ]
 }
