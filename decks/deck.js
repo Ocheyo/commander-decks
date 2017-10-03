@@ -10,21 +10,37 @@ const buildCardAnchor = (cardName) => {
 	return anchor;
 }
 
-const buildDeckList = (deckList) => {
-  let sortedByType = {}
+const sortByType = (deckList) => {
+  let sortedByType = {};
   deckList.forEach(card => {
-  	if (sortedByType[card.type]) {
-  		sortedByType[card.type].push(card.name);
-  	} else {
-  		sortedByType[card.type] = [card.name];
-  	}
+    if (sortedByType[card.type]) {
+      sortedByType[card.type].push(card.name);
+    } else {
+      sortedByType[card.type] = [card.name];
+    }
   });
+  return sortedByType;
+}
+
+const createCategory = (type) => {
+  let listDiv = document.getElementById('deck-list');
+  let h3 = document.createElement('h3');
+  h3.innerText = type.replace(type[0], type.charAt(0).toUpperCase()) + ':';
+  listDiv.append(h3);
+  let typeList = document.createElement('ul');
+  typeList.id = type;
+  listDiv.append(typeList);
+}
+
+const buildDeckList = (deckList) => {
+  let sortedByType = sortByType(deckList);
   for (type in sortedByType) {
-  	let div = document.getElementById(type);
+    createCategory(type);
+  	let category = document.getElementById(type);
     sortedByType[type].forEach(cardName => {
       let listItem = document.createElement('li');
       listItem.appendChild(buildCardAnchor(cardName));
-      div.appendChild(listItem);
+      category.appendChild(listItem);
     });
   }
 }
