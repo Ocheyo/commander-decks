@@ -1,6 +1,7 @@
 body {
 	text-align: center;
 	background: #e6ccb3;
+	width: 600px;
 }
 
 h3 {
@@ -26,11 +27,20 @@ ul #menu {
 	padding: 5 0 5 0;
 }
 
-ul .categories {
+#deck-list {
 	padding: 6 0 0 0;
+	text-align: left;
 }
 
 #desc {
 	width: 500px;
 	margin: 0 auto;
+}
+
+#commander-image {
+	height: 300px;
+	width: 220px;
+	float: right;
+	margin: 0 auto;
+	padding: 0 10 0 10;
 }

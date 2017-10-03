@@ -33,6 +33,14 @@ const createCategory = (category) => {
   listDiv.append(typeList);
 }
 
+const buildCommanderImg = (commander) => {
+  let commImg = document.createElement('img');
+  commImg.src = commander.image;
+  commImg.alt = commander.name;
+  commImg.id = 'commander-image';
+  return commImg;
+}
+
 const buildDeckList = (deckList) => {
   let sortedByType = sortByType(deckList);
   for (category in sortedByType) {
@@ -58,9 +66,12 @@ const buildDeckPage = (deckObj) => {
   deckDesc.innerText = deckObj.desc;
   document.getElementById('desc').append(deckDesc);
   
+  let commander = document.getElementById('commander');
   let comm = document.createElement('h2');
   comm.innerText = 'Commander: ' + deckObj.commander.name;
-  document.getElementById('commander').append(comm);
+  commander.append(comm);
+  let commImg = buildCommanderImg(deckObj.commander);
+  commander.append(commImg);
 
   buildDeckList(deckObj.deckList);
 }
