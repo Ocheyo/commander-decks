@@ -70,10 +70,12 @@ const buildDeckPage = (deckObj) => {
   let comm = document.createElement('h2');
   comm.appendChild(buildCardAnchor(deckObj.commander.name));
   commander.append(comm);
-  let commImg = buildCommanderImg(deckObj.commander);
-  commander.append(commImg);
 
   buildDeckList(deckObj.deckList);
+
+  let listDiv = document.getElementById('deck-list');
+  let commImg = buildCommanderImg(deckObj.commander);
+  listDiv.append(commImg);
 }
 
 const getURLParameter = (sParam) => {
