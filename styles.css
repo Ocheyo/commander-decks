@@ -4,6 +4,7 @@ body {
 	background-image: url("images/mtg-background1.jpg");
 	background-repeat: repeat;
 	width: 600px;
+	margin-bottom: 100px;
 }
 
 h3, h1, p {

@@ -35,7 +35,7 @@ const createCategory = (category) => {
 
 const buildCommanderImg = (commander) => {
   let commImg = document.createElement('img');
-  commImg.src = commander.image;
+  commImg.src = 'http://gatherer.wizards.com/Handlers/Image.ashx?name=' + commander.name.replace(/ /g, '%20').replace(/'/g, '%27') + '&type=card&.jpg';
   commImg.alt = commander.name;
   commImg.id = 'commander-image';
   return commImg;
