@@ -13,7 +13,7 @@ const buildLinkList = (myDecks) => {
 	});
 }
 
-fetch(new Request('https://gist.githubusercontent.com/Ocheyo/4d448cb940aa14dc99c7e92f66e075b1/raw/083c095392c72a459d7337f60c9ed960e2e39737/myDecks.JSON'))
+fetch(new Request('https://gist.githubusercontent.com/Ocheyo/4d448cb940aa14dc99c7e92f66e075b1/raw/46946b78a4f14619f3be63a745ae710edc374187/myDecks.JSON'))
   .then(function(response) { 
     response.json().then(function(result) { buildLinkList(result); });
 });
