@@ -1,19 +1,28 @@
 body {
 	text-align: center;
-	background: #e6ccb3;
+	background: #b8b894;
+	background-image: url("images/mtg-background1.jpg");
+	background-repeat: repeat;
 	width: 600px;
+}
+
+h3, h1, p {
+	color: #ffffff;
 }
 
 h3 {
 	margin: 0 auto;
-	padding: 5 0 0 0;
-	color: #002266;
+	padding-top: 10px;
 }
 
 ul {
 	list-style-type: none;
 	margin: 0 auto;
 	padding: 0 auto;
+}
+
+li {
+	font-weight: "bold";
 }
 
 nav {
@@ -23,7 +32,15 @@ nav {
 	border: 2px solid black;
 }
 
-ul #menu {
+a:link {
+	color: #e6ccb3;
+}
+
+a:visited {
+	color: #d2a697;
+}
+
+#menu {
 	padding: 5 0 5 0;
 }
 
@@ -35,6 +52,10 @@ ul #menu {
 #desc {
 	width: 500px;
 	margin: 0 auto;
+}
+
+#commander h2 {
+	color: #ffcc00;
 }
 
 #commander-image {
