@@ -68,7 +68,6 @@ const buildDeckPage = (deckObj) => {
   
   let commander = document.getElementById('commander');
   let comm = document.createElement('h2');
-  comm.innerText = 'Commander: ' + deckObj.commander.name;
   comm.appendChild(buildCardAnchor(deckObj.commander.name));
   commander.append(comm);
   let commImg = buildCommanderImg(deckObj.commander);
