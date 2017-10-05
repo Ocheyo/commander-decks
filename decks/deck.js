@@ -56,6 +56,10 @@ const buildDeckList = (deckList) => {
   }
 }
 
+const scrollOff = () => commImg.className = 'fixed';
+
+const scrollOn = () => commImg.className = 'absolute';
+
 const pageScrolled = () => (comm.getBoundingClientRect().y <0) ? scrollOff() : scrollOn(); 
 
 const buildDeckPage = (deckObj) => {
@@ -83,10 +87,6 @@ const buildDeckPage = (deckObj) => {
 
   document.addEventListener('scroll', pageScrolled);
 }
-
-const scrollOff = () => commImg.className = 'fixed';
-
-const scrollOn = () => commImg.className = 'absolute';
 
 const getURLParameter = (sParam) => {
   var sPageURL = window.location.search.substring(1);

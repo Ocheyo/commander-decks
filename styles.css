@@ -63,17 +63,18 @@ a:visited {
 .absolute {
 	position: absolute;
 	top: 0;
+	left: 300px;
 }
 
 .fixed {
 	position: fixed;
-	top: 50px;
+	top: 45px;
+	left: 308px;
 }
 
 #commander-image {
 	height: 300px;
 	width: 220px;
 	float: right;
-	left: 280px;;
 	padding: 0 10 0 10;
 }
