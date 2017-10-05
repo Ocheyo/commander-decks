@@ -1,3 +1,5 @@
+const comm = document.createElement('h2'), commImg = document.createElement('img');
+
 const prepCardName = (cardName) => cardName.toLowerCase().replace(/ /g, '-').replace(/[^\w-]/, '');
 
 const buildURL = (cardName) => `http://tappedout.net/mtg-card/${prepCardName(cardName)}/`;
@@ -34,9 +36,9 @@ const createCategory = (category) => {
 }
 
 const buildCommanderImg = (commander) => {
-  let commImg = document.createElement('img');
   commImg.src = 'http://gatherer.wizards.com/Handlers/Image.ashx?name=' + commander.name.replace(/ /g, '%20').replace(/'/g, '%27') + '&type=card&.jpg';
   commImg.alt = commander.name;
+  commImg.class = 'absolute';
   commImg.id = 'commander-image';
   return commImg;
 }
@@ -54,6 +56,8 @@ const buildDeckList = (deckList) => {
   }
 }
 
+const pageScrolled = () => (comm.getBoundingClientRect().y <0) ? scrollOff() : scrollOn(); 
+
 const buildDeckPage = (deckObj) => {
   let titleItem =  document.getElementsByTagName('title').item(0);
   titleItem.innerText = deckObj.name;
@@ -66,17 +70,23 @@ const buildDeckPage = (deckObj) => {
   deckDesc.innerText = deckObj.desc;
   document.getElementById('desc').append(deckDesc);
   
+  
   let commander = document.getElementById('commander');
-  let comm = document.createElement('h2');
   comm.appendChild(buildCardAnchor(deckObj.commander.name));
   commander.append(comm);
-
-  buildDeckList(deckObj.deckList);
 
   let listDiv = document.getElementById('deck-list');
   let commImg = buildCommanderImg(deckObj.commander);
   listDiv.append(commImg);
+
+  buildDeckList(deckObj.deckList);
+
+  document.addEventListener('scroll', pageScrolled);
 }
+
+const scrollOff = () => commImg.class = 'fixed';
+
+const scrollOn = () => commImg.class = 'absolute';
 
 const getURLParameter = (sParam) => {
   var sPageURL = window.location.search.substring(1);
@@ -93,4 +103,4 @@ fetch(new Request(getURLParameter('deckID')))
   .then(function(response) { 
     response.json().then(function(result) { buildDeckPage(result); });
 });
-  
+
