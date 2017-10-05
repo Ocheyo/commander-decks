@@ -2,14 +2,14 @@
 
 const buildLinkList = (myDecks) => {
 	let baseURL = "decks/deck.html?deckID=";
-	let list = document.getElementById('menu');
+	let list = document.getElementsByClassName('menu');
 	myDecks.decks.forEach(deck => {
 		let anchor = document.createElement('a');
 		anchor.href = baseURL + deck.link;
 		anchor.innerText = deck.name;
 		let listItem = document.createElement('li');
 		listItem.append(anchor);
-		list.append(listItem);
+		list[0].append(listItem);
 	});
 }
 

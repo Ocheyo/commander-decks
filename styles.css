@@ -7,6 +7,10 @@ body {
 	margin-bottom: 100px;
 }
 
+header {
+
+}
+
 h3, h1, p {
 	color: #ffffff;
 }
@@ -14,6 +18,12 @@ h3, h1, p {
 h3 {
 	margin: 0 auto;
 	padding-top: 10px;
+}
+
+#nav-button {
+	height: 50px;
+	width: 50px;
+	float: left;
 }
 
 ul {
@@ -27,9 +37,7 @@ li {
 }
 
 nav {
-	display: inline;
-	float: left;
-	width: 200px;
+	width: 150px;
 	border: 2px solid black;
 }
 
@@ -41,8 +49,38 @@ a:visited {
 	color: #d2a697;
 }
 
-#menu {
+nav:hidden {
+	position: fixed;
+	left: -400px;
+}
+
+nav:display {
+	position: fixed;
+	left: 20px;
+	top: 20px;
+}
+
+.menu {
 	padding: 5 0 5 0;
+}
+
+.nav ul {
+	color: #1a1aff;
+}
+
+.nav li {
+	display: block;
+	list-style-type: none;
+	color: black;
+	border: 1px solid black;
+}
+
+.active {
+	color: #ccccff;
+}
+
+#button {
+	color: #6b6b47;
 }
 
 #desc {
