@@ -38,7 +38,7 @@ const createCategory = (category) => {
 const buildCommanderImg = (commander) => {
   commImg.src = 'http://gatherer.wizards.com/Handlers/Image.ashx?name=' + commander.name.replace(/ /g, '%20').replace(/'/g, '%27') + '&type=card&.jpg';
   commImg.alt = commander.name;
-  commImg.class = 'absolute';
+  commImg.className = 'absolute';
   commImg.id = 'commander-image';
   return commImg;
 }
@@ -84,9 +84,9 @@ const buildDeckPage = (deckObj) => {
   document.addEventListener('scroll', pageScrolled);
 }
 
-const scrollOff = () => commImg.class = 'fixed';
+const scrollOff = () => commImg.className = 'fixed';
 
-const scrollOn = () => commImg.class = 'absolute';
+const scrollOn = () => commImg.className = 'absolute';
 
 const getURLParameter = (sParam) => {
   var sPageURL = window.location.search.substring(1);
