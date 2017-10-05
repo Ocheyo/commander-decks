@@ -17,11 +17,11 @@ const mouseEnterEvent = (event) => commImg.src = event.target.getAttribute('data
 
 const mouseLeaveEvent = (event) => commImg.src = commImg.getAttribute('data-image');
 
-const buildCardAnchor = (cardName) => {
-	let link = buildURL(cardName);
+const buildCardAnchor = (card) => {
+	let link = buildURL(card.name);
 	let anchor = document.createElement('a');
 	anchor.href = link;
-  anchor.innerText = cardName;
+  anchor.innerText = (card.qty > 1) ? card.qty + 'x ' + card.name : card.name;
   anchor.target = '_blank';
   anchor.setAttribute('data-image', 'http://gatherer.wizards.com/Handlers/Image.ashx?name=' + cardName.replace(/ /g, '%20').replace(/'/g, '%27') + '&type=card&.jpg');
   anchor.addEventListener('mouseenter', mouseEnterEvent);
@@ -33,9 +33,9 @@ const sortByType = (deckList) => {
   let sortedByType = {};
   deckList.forEach(card => {
     if (sortedByType[card.category]) {
-      sortedByType[card.category].push(card.name);
+      sortedByType[card.category].push(card);
     } else {
-      sortedByType[card.category] = [card.name];
+      sortedByType[card.category] = [card];
     }
   });
   return sortedByType;
@@ -56,9 +56,9 @@ const buildDeckList = (deckList) => {
   for (category in sortedByType) {
     createCategory(category);
   	let typeList = document.getElementById(category);
-    sortedByType[category].forEach(cardName => {
+    sortedByType[category].forEach(card => {
       let listItem = document.createElement('li');
-      listItem.appendChild(buildCardAnchor(cardName));
+      listItem.appendChild(buildCardAnchor(card));
       typeList.appendChild(listItem);
     });
   }
@@ -84,7 +84,7 @@ const buildDeckPage = (deckObj) => {
   
   
   let commander = document.getElementById('commander');
-  comm.appendChild(buildCardAnchor(deckObj.commander.name));
+  comm.appendChild(buildCardAnchor(deckObj.commander));
   commander.append(comm);
 
   let listDiv = document.getElementById('deck-list');
