@@ -4,12 +4,28 @@ const prepCardName = (cardName) => cardName.toLowerCase().replace(/ /g, '-').rep
 
 const buildURL = (cardName) => `http://tappedout.net/mtg-card/${prepCardName(cardName)}/`;
 
+const buildCommanderImg = (commander) => {
+  commImg.src = 'http://gatherer.wizards.com/Handlers/Image.ashx?name=' + commander.name.replace(/ /g, '%20').replace(/'/g, '%27') + '&type=card&.jpg';
+  commImg.alt = commander.name;
+  commImg.className = 'absolute';
+  commImg.id = 'commander-image';
+  commImg.setAttribute('data-image', commImg.src);
+  return commImg;
+}
+
+const mouseEnterEvent = (event) => commImg.src = event.target.getAttribute('data-image');
+
+const mouseLeaveEvent = (event) => commImg.src = commImg.getAttribute('data-image');
+
 const buildCardAnchor = (cardName) => {
 	let link = buildURL(cardName);
 	let anchor = document.createElement('a');
 	anchor.href = link;
   anchor.innerText = cardName;
   anchor.target = '_blank';
+  anchor.setAttribute('data-image', 'http://gatherer.wizards.com/Handlers/Image.ashx?name=' + cardName.replace(/ /g, '%20').replace(/'/g, '%27') + '&type=card&.jpg');
+  anchor.addEventListener('mouseenter', mouseEnterEvent);
+  anchor.addEventListener('mouseleave', mouseLeaveEvent);
 	return anchor;
 }
 
@@ -33,14 +49,6 @@ const createCategory = (category) => {
   let typeList = document.createElement('ul');
   typeList.id = category;
   listDiv.append(typeList);
-}
-
-const buildCommanderImg = (commander) => {
-  commImg.src = 'http://gatherer.wizards.com/Handlers/Image.ashx?name=' + commander.name.replace(/ /g, '%20').replace(/'/g, '%27') + '&type=card&.jpg';
-  commImg.alt = commander.name;
-  commImg.className = 'absolute';
-  commImg.id = 'commander-image';
-  return commImg;
 }
 
 const buildDeckList = (deckList) => {
