@@ -2,7 +2,9 @@ const list = document.createElement('nav');
 
 const displayNav = () => list.className = list.className.replace('hidden', 'display');
 
-const hideNav = () => console.log('here'); //list.className = list.className.replace('display', 'hidden');
+const hideNav = () => list.className = list.className.replace('display', 'hidden');
+
+const navStatus = () => (list.className === 'display') ? hideNav() : displayNav();
 
 const buildNavList = (myDecks) => {
 	let baseURL = "deck.html?deckID=";
@@ -12,14 +14,12 @@ const buildNavList = (myDecks) => {
 		anchor.innerText = deck.name;
 		let listItem = document.createElement('li');
 		listItem.append(anchor);
-		anchor.className = ''
-		if (document.getElementById('deck-name').innerText == deck.name) {
+		if (document.getElementById('deck-name').innerText === deck.name) {
 			console.log('this should be active')
 			listItem.id = 'active';
 		}
 		list.append(listItem);
 	});
-	list.addEventListener('moouseleave', hideNav);
 	list.id = 'nav';
 	list.className = 'hidden';
 }
@@ -29,7 +29,7 @@ const createNav = (result) => {
 	let button = document.createElement('img');
 	button.id = 'nav-button';
 	button.src = '../images/button-img.jpg';
-	button.addEventListener('click', displayNav);
+	button.addEventListener('click', navStatus);
 	buildNavList(result.decks);
 	header.append(button);
 	header.append(list);
