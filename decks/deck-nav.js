@@ -13,7 +13,7 @@ const buildNavList = (myDecks) => {
 		let listItem = document.createElement('li');
 		listItem.append(anchor);
 		anchor.className = ''
-		if (document.getElementById('deck-name') == deck.name) {
+		if (document.getElementById('deck-name').innerText == deck.name) {
 			console.log('this should be active')
 			listItem.id = 'active';
 		}

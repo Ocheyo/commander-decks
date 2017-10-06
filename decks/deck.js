@@ -76,7 +76,8 @@ const buildDeckPage = (deckObj) => {
   
   let deckName = document.createElement('h1');
   deckName.innerText = deckObj.name;
-  document.getElementById('deck-name').append(deckName);
+  deckName.id = 'deck-name';
+  document.getElementById('deck-name-div').append(deckName);
   
   let deckDesc = document.createElement('p');
   deckDesc.innerText = deckObj.desc;
