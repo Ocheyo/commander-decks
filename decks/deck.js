@@ -115,7 +115,11 @@ const displayNav = () => list.className = list.className.replace('hidden', 'disp
 
 const hideNav = () => list.className = list.className.replace('display', 'hidden');
 
-const navStatus = () => (list.className === 'display') ? hideNav() : displayNav();
+const navStatus = (event) => {
+  console.log(event.target.transition); 
+  event.target.transition = 'rotate(360deg)';
+  (list.className === 'display') ? hideNav() : displayNav();
+}
 
 const bodyClick = (event) => { if (event.target.id !== 'nav-button' && list.className === 'display' ) hideNav(); }
 

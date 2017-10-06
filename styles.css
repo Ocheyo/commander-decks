@@ -78,8 +78,7 @@ nav li {
 }
 
 header img {
-	  transition: all .5s ease;
-  transform: rotate(360deg);
+	transition: all .5s ease;	
 }
 
 .menu {
