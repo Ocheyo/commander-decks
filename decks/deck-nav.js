@@ -1,8 +1,8 @@
 const list = document.createElement('nav');
 
-const displayNav = () => list.className.replace('hidden', 'display');
+const displayNav = () => list.className = list.className.replace('hidden', 'display');
 
-const hideNav = () => list.className.replace('display', 'hidden');
+const hideNav = () => console.log('here'); //list.className = list.className.replace('display', 'hidden');
 
 const buildNavList = (myDecks) => {
 	let baseURL = "deck.html?deckID=";
@@ -12,12 +12,15 @@ const buildNavList = (myDecks) => {
 		anchor.innerText = deck.name;
 		let listItem = document.createElement('li');
 		listItem.append(anchor);
-		if (document.getElementsByTagName('title')[0] === deck.name) {
-			anchor.className = 'active';
+		anchor.className = ''
+		if (document.getElementById('deck-name') == deck.name) {
+			listItem.id = 'active';
 		}
+		list.append(listItem);
 	});
 	list.addEventListener('moouseleave', hideNav);
-	list.className += 'menu hidden';
+	list.id = 'nav';
+	list.className = 'hidden';
 }
 
 const createNav = (result) => {
@@ -28,7 +31,7 @@ const createNav = (result) => {
 	button.addEventListener('click', displayNav);
 	buildNavList(result.decks);
 	header.append(button);
-	button.append(list);
+	header.append(list);
 }
 
 

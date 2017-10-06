@@ -8,7 +8,7 @@ body {
 }
 
 header {
-
+	position: relative;
 }
 
 h3, h1, p {
@@ -24,6 +24,8 @@ h3 {
 	height: 50px;
 	width: 50px;
 	float: left;
+	margin: 0;
+	padding: 0;
 }
 
 ul {
@@ -49,12 +51,20 @@ a:visited {
 	color: #d2a697;
 }
 
-nav:hidden {
+nav li {
+	background-color: #3333ff;
+}
+
+nav li #active {
+	background-color: #ccccff;
+}
+
+.hidden {
 	position: fixed;
 	left: -400px;
 }
 
-nav:display {
+.display {
 	position: fixed;
 	left: 20px;
 	top: 20px;
@@ -64,15 +74,13 @@ nav:display {
 	padding: 5 0 5 0;
 }
 
-.nav ul {
-	color: #1a1aff;
+#nav {
+	list-style-type: none;
+	border: 1px solid black;
 }
 
-.nav li {
+#nav a {
 	display: block;
-	list-style-type: none;
-	color: black;
-	border: 1px solid black;
 }
 
 .active {
