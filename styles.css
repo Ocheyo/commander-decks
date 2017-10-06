@@ -95,6 +95,7 @@ nav li {
 #nav {
 	list-style-type: none;
 	border: 1px solid black;
+	z-index: 3;
 }
 
 #nav a {
