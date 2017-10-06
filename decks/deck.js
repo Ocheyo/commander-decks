@@ -117,6 +117,8 @@ const hideNav = () => list.className = list.className.replace('display', 'hidden
 
 const navStatus = () => (list.className === 'display') ? hideNav() : displayNav();
 
+const bodyClick = (event) => { if (event.target.id !== 'nav-button' && list.className === 'display' ) hideNav(); }
+
 const buildNavList = (myDecks) => {
   let baseURL = "deck.html?deckID=";
   let home = document.createElement('a');
@@ -138,6 +140,7 @@ const buildNavList = (myDecks) => {
   });
   list.id = 'nav';
   list.className = 'hidden';
+  document.getElementsByTagName('body')[0].addEventListener('click', bodyClick)
 }
 
 const createNav = (result) => {
