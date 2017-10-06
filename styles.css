@@ -39,23 +39,27 @@ li {
 }
 
 nav {
-	width: 150px;
+	width: 200px;
 	border: 2px solid black;
 }
 
-a:link {
+#deck-list a:link {
 	color: #e6ccb3;
 }
 
-a:visited {
+#deck-list a:visited {
 	color: #d2a697;
 }
 
-nav li {
-	background-color: #3333ff;
+nav a {
+	color: black;
 }
 
-nav li #active {
+nav li {
+	background-color: #3399ff;
+}
+
+#active {
 	background-color: #ccccff;
 }
 
