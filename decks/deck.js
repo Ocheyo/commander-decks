@@ -116,6 +116,12 @@ const navStatus = () => (list.className === 'display') ? hideNav() : displayNav(
 
 const buildNavList = (myDecks) => {
   let baseURL = "deck.html?deckID=";
+  let home = document.createElement('a');
+  home.href = 'https://ocheyo.github.io/commander-decks/';
+  home.innerText = 'Home';
+  let homeItem = document.createElement('li');
+  homeItem.append(home);
+  list.append(homeItem);
   myDecks.forEach(deck => {
     let anchor = document.createElement('a');
     anchor.href = baseURL + deck.link;
@@ -123,7 +129,6 @@ const buildNavList = (myDecks) => {
     let listItem = document.createElement('li');
     listItem.append(anchor);
     if (getURLParameter('deckID') === deck.link) {
-      console.log('this should be active')
       listItem.id = 'active';
     }
     list.append(listItem);
