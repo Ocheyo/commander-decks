@@ -17,7 +17,3 @@ fetch(new Request('https://raw.githubusercontent.com/Ocheyo/commander-decks/mast
   .then(function(response) { 
     response.json().then(function(result) { buildLinkList(result); });
 });
-
-/* #comm-div {
-	position: absolute;
-}*/
