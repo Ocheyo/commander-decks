@@ -68,7 +68,10 @@ const scrollOff = () => commImg.className = 'fixed';
 
 const scrollOn = () => commImg.className = 'absolute';
 
-const pageScrolled = () => (comm.getBoundingClientRect().y <0) ? scrollOff() : scrollOn(); 
+const pageScrolled = () => {
+  (comm.getBoundingClientRect().y <0) ? scrollOff() : scrollOn();
+  if (document.getElementById('nav-button').getBoundingClientRect().y <0 && list.className === 'display')  hideNav();
+}
 
 const buildDeckPage = (deckObj) => {
   let titleItem =  document.getElementsByTagName('title').item(0);
