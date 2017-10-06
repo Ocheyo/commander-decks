@@ -111,19 +111,21 @@ const getURLParameter = (sParam) => {
   }
 }
 
-const displayNav = () => list.className = list.className.replace('hidden', 'display');
+const displayNav = () => {
+  list.className = list.className.replace('hidden', 'display');
+  document.getElementById('nav-button').className = 'rotate';
+}
 
-const hideNav = () => list.className = list.className.replace('display', 'hidden');
+const hideNav = () => {
+  list.className = list.className.replace('display', 'hidden');
+  document.getElementById('nav-button').className = '';
+}
 
 const navStatus = (event) => {
-  console.log(event.target.id); 
-  event.target.className = (event.target.className.includes('rotate')) ? event.target.className.replace(' rotate', '') : event.target.className + ' rotate';
   (list.className === 'display') ? hideNav() : displayNav();
 }
 
-const bodyClick = (event) => { 
-  if (event.target.id !== 'nav-button' && list.className === 'display' ) hideNav(); 
-}
+const bodyClick = (event) => { if (event.target.id !== 'nav-button' && list.className === 'display' ) hideNav(); }
 
 const buildNavList = (myDecks) => {
   let baseURL = "deck.html?deckID=";
