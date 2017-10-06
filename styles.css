@@ -28,6 +28,7 @@ h3 {
 	padding: 0;
 	cursor: pointer;
 	border-radius: 50%;
+	transition: all .5s ease;	
 }
 
 ul {
@@ -75,10 +76,6 @@ nav li {
 	position: fixed;
 	left: 58px;
 	top: 20px;
-}
-
-header img {
-	transition: all .5s ease;	
 }
 
 .menu {
