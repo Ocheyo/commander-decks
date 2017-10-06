@@ -116,12 +116,14 @@ const displayNav = () => list.className = list.className.replace('hidden', 'disp
 const hideNav = () => list.className = list.className.replace('display', 'hidden');
 
 const navStatus = (event) => {
-  console.log(event.target); 
-  event.target.transform = 'rotate(360deg)';
+  console.log(event.target.id); 
+  event.target.className = (event.target.className.includes('rotate')) ? event.target.className.replace(' rotate', '') : event.target.className + ' rotate';
   (list.className === 'display') ? hideNav() : displayNav();
 }
 
-const bodyClick = (event) => { if (event.target.id !== 'nav-button' && list.className === 'display' ) hideNav(); }
+const bodyClick = (event) => { 
+  if (event.target.id !== 'nav-button' && list.className === 'display' ) hideNav(); 
+}
 
 const buildNavList = (myDecks) => {
   let baseURL = "deck.html?deckID=";

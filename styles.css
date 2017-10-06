@@ -28,7 +28,11 @@ h3 {
 	padding: 0;
 	cursor: pointer;
 	border-radius: 50%;
-	transition: all .5s ease;	
+	transition: all .5s ease;
+}
+
+.rotate {
+	transform: rotate(360deg);
 }
 
 ul {
