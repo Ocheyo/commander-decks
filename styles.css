@@ -58,6 +58,7 @@ nav a {
 
 nav li {
 	background-color: #3399ff;
+	border: 1px solid black;
 }
 
 #active {
@@ -71,8 +72,8 @@ nav li {
 
 .display {
 	position: fixed;
-	left: 60px;
-	top: 30px;
+	left: 58px;
+	top: 20px;
 }
 
 .menu {
