@@ -564,12 +564,12 @@
       "cmc": 1
     },
     {
-      "name": "Commit",
+      "name": "Commit / Memory",
       "category": "instant",
       "qty": "1",
       "color": "blue",
       "type": "instant",
-      "cmc": 4
+      "cmc": 10
     },
     {
       "name": "Crosis's Charm",
@@ -596,12 +596,12 @@
       "cmc": 8
     },
     {
-      "name": "Far",
+      "name": "Far / Away",
       "category": "instant",
       "qty": "1",
       "color": "blue",
       "type": "instant",
-      "cmc": 2
+      "cmc": 5
     },
     {
       "name": "Hero's Downfall",
