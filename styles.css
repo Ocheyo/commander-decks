@@ -1,3 +1,7 @@
+/* ****************** */
+/* *******TAGS******* */
+/* ****************** */
+
 body {
 	text-align: center;
 	background: #b8b894;
@@ -20,21 +24,6 @@ h3 {
 	padding-top: 10px;
 }
 
-#nav-button {
-	height: 50px;
-	width: 50px;
-	float: left;
-	margin: 0;
-	padding: 0;
-	cursor: pointer;
-	border-radius: 50%;
-	transition: all .5s ease;
-}
-
-.rotate {
-	transform: rotate(360deg);
-}
-
 ul {
 	list-style-type: none;
 	margin: 0 auto;
@@ -50,14 +39,6 @@ nav {
 	border: 2px solid black;
 }
 
-#deck-list a:link {
-	color: #e6ccb3;
-}
-
-#deck-list a:visited {
-	color: #d2a697;
-}
-
 nav a {
 	color: black;
 }
@@ -67,19 +48,31 @@ nav li {
 	border: 1px solid black;
 }
 
-#active {
-	background-color: #ccccff;
-}
+/* ****************** */
+/* *****CLASSES****** */
+/* ****************** */
 
-.hidden {
-	position: fixed;
-	left: -400px;
+.absolute {
+	position: absolute;
+	top: 0;
+	left: 300px;
 }
 
 .display {
 	position: fixed;
 	left: 58px;
 	top: 20px;
+}
+
+.fixed {
+	position: fixed;
+	top: 45px;
+	left: 308px;
+}
+
+.hidden {
+	position: fixed;
+	left: -400px;
 }
 
 .menu {
@@ -98,45 +91,39 @@ nav li {
 	font-size: 20px;
 }
 
-#nav {
-	list-style-type: none;
-	border: 1px solid black;
-	z-index: 3;
+.rotate {
+	transform: rotate(360deg);
 }
 
-#nav a {
-	display: block;
+/* ****************** */
+/* *******IDS******** */
+/* ****************** */
+
+#deck-list a:link {
+	color: #e6ccb3;
+}
+
+#deck-list a:visited {
+	color: #d2a697;
+}
+
+#nav-button {
+	height: 50px;
+	width: 50px;
+	float: left;
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+	border-radius: 50%;
+	transition: all .5s ease;
+}
+
+#active {
+	background-color: #ccccff;
 }
 
 .active {
 	color: #ccccff;
-}
-
-#desc {
-	width: 500px;
-	margin: 0 auto;
-}
-
-#commander a {
-	color: #ffcc00;
-}
-
-#deck-list {
-	padding: 6 0 0 0;
-	text-align: left;
-	position: relative;
-}
-
-.absolute {
-	position: absolute;
-	top: 0;
-	left: 300px;
-}
-
-.fixed {
-	position: fixed;
-	top: 45px;
-	left: 308px;
 }
 
 #commander-image {
@@ -145,4 +132,29 @@ nav li {
 	float: right;
 	padding: 0 10 0 10;
 	border-radius: 10px;	
+}
+
+#commander a {
+	color: #ffcc00;
+}
+
+#desc {
+	width: 500px;
+	margin: 0 auto;
+}
+
+#deck-list {
+	padding: 6 0 0 0;
+	text-align: left;
+	position: relative;
+}
+
+#nav {
+	list-style-type: none;
+	border: 1px solid black;
+	z-index: 3;
+}
+
+#nav a {
+	display: block;
 }
