@@ -1,0 +1,751 @@
+{
+  "name": "Compelling Wizardry",
+  "url": "http://tappedout.net/mtg-decks/compelling-wizardry/",
+  "author": "Ocheyo",
+  "tags": [
+    "Commander / EDH",
+    "Tribal",
+    "U/B/R (Grixis)",
+    "Wizards"
+  ],
+  "desc": "My take on the Inalla, Archmage Ritualist Wizard Tribal deck. with a third of the deck being creatures, instants and sorceries had to be pared down. I chose mostly spells with multiple modes, like charms and the confluences. There are more legends than there probably should be, but they are powerful creatures. With this many creatures I also chose not to spend any non-creature slots on recursion, several had to go to mana rocks.",
+  "commander": {
+    "name": "Inalla, Archmage Ritualist",
+    "category": "creature",
+    "qty": 1,
+    "color": "gold",
+    "type": "legendary",
+    "cmc": 5,
+    "image": "http://static.tappedout.net/cache/73/06/73061e2e939ddd701982c46f477b52c1.png"
+  },
+  "deckList": [
+    {
+      "name": "Apprentice Necromancer",
+      "category": "creature",
+      "qty": "1",
+      "color": "black",
+      "type": "creature",
+      "cmc": 2
+    },
+    {
+      "name": "Arcanis the Omnipotent",
+      "category": "creature",
+      "qty": "1",
+      "color": "blue",
+      "type": "creature",
+      "cmc": 6
+    },
+    {
+      "name": "Archaeomancer",
+      "category": "creature",
+      "qty": "1",
+      "color": "blue",
+      "type": "creature",
+      "cmc": 4
+    },
+    {
+      "name": "Azami, Lady of Scrolls",
+      "category": "creature",
+      "qty": "1",
+      "color": "blue",
+      "type": "creature",
+      "cmc": 5
+    },
+    {
+      "name": "Bloodline Necromancer",
+      "category": "creature",
+      "qty": "1",
+      "color": "black",
+      "type": "creature",
+      "cmc": 5
+    },
+    {
+      "name": "Corpse Augur",
+      "category": "creature",
+      "qty": "1",
+      "color": "black",
+      "type": "creature",
+      "cmc": 4
+    },
+    {
+      "name": "Docent of Perfection",
+      "category": "creature",
+      "qty": "1",
+      "color": "blue",
+      "type": "creature",
+      "cmc": 5
+    },
+    {
+      "name": "Etherium-Horn Sorcerer",
+      "category": "creature",
+      "qty": "1",
+      "color": "blue",
+      "type": "creature",
+      "cmc": 6
+    },
+    {
+      "name": "Galecaster Colossus",
+      "category": "creature",
+      "qty": "1",
+      "color": "blue",
+      "type": "creature",
+      "cmc": 7
+    },
+    {
+      "name": "Glen Elendra Archmage",
+      "category": "creature",
+      "qty": "1",
+      "color": "blue",
+      "type": "creature",
+      "cmc": 4
+    },
+    {
+      "name": "Harbinger of the Tides",
+      "category": "creature",
+      "qty": "1",
+      "color": "blue",
+      "type": "creature",
+      "cmc": 2
+    },
+    {
+      "name": "Havengul Lich",
+      "category": "creature",
+      "qty": "1",
+      "color": "blue",
+      "type": "creature",
+      "cmc": 5
+    },
+    {
+      "name": "Izzet Chronarch",
+      "category": "creature",
+      "qty": "1",
+      "color": "red",
+      "type": "creature",
+      "cmc": 5
+    },
+    {
+      "name": "Jace, Vryn's Prodigy",
+      "category": "creature",
+      "qty": "1",
+      "color": "blue",
+      "type": "creature",
+      "cmc": 2
+    },
+    {
+      "name": "Jori En, Ruin Diver",
+      "category": "creature",
+      "qty": "1",
+      "color": "blue",
+      "type": "creature",
+      "cmc": 3
+    },
+    {
+      "name": "Kess, Dissident Mage",
+      "category": "creature",
+      "qty": "1",
+      "color": "blue",
+      "type": "creature",
+      "cmc": 4
+    },
+    {
+      "name": "Lim-Dul the Necromancer",
+      "category": "creature",
+      "qty": "1",
+      "color": "black",
+      "type": "creature",
+      "cmc": 7
+    },
+    {
+      "name": "Magus of the Mind",
+      "category": "creature",
+      "qty": "1",
+      "color": "blue",
+      "type": "creature",
+      "cmc": 6
+    },
+    {
+      "name": "Magus of the Will",
+      "category": "creature",
+      "qty": "1",
+      "color": "black",
+      "type": "creature",
+      "cmc": 3
+    },
+    {
+      "name": "Marchesa, the Black Rose",
+      "category": "creature",
+      "qty": "1",
+      "color": "blue",
+      "type": "creature",
+      "cmc": 4
+    },
+    {
+      "name": "Merchant of Secrets",
+      "category": "creature",
+      "qty": "1",
+      "color": "blue",
+      "type": "creature",
+      "cmc": 3
+    },
+    {
+      "name": "Mercurial Chemister",
+      "category": "creature",
+      "qty": "1",
+      "color": "red",
+      "type": "creature",
+      "cmc": 5
+    },
+    {
+      "name": "Nin, the Pain Artist",
+      "category": "creature",
+      "qty": "1",
+      "color": "blue",
+      "type": "creature",
+      "cmc": 2
+    },
+    {
+      "name": "Niv-Mizzet, the Firemind",
+      "category": "creature",
+      "qty": "1",
+      "color": "blue",
+      "type": "creature",
+      "cmc": 6
+    },
+    {
+      "name": "Omenspeaker",
+      "category": "creature",
+      "qty": "1",
+      "color": "blue",
+      "type": "creature",
+      "cmc": 2
+    },
+    {
+      "name": "Puppeteer Clique",
+      "category": "creature",
+      "qty": "1",
+      "color": "black",
+      "type": "creature",
+      "cmc": 5
+    },
+    {
+      "name": "Sea Gate Oracle",
+      "category": "creature",
+      "qty": "1",
+      "color": "blue",
+      "type": "creature",
+      "cmc": 3
+    },
+    {
+      "name": "Shadowmage Infiltrator",
+      "category": "creature",
+      "qty": "1",
+      "color": "gold",
+      "type": "creature",
+      "cmc": 3
+    },
+    {
+      "name": "Siren Stormtamer",
+      "category": "creature",
+      "qty": "1",
+      "color": "blue",
+      "type": "creature",
+      "cmc": 1
+    },
+    {
+      "name": "Snapcaster Mage",
+      "category": "creature",
+      "qty": "1",
+      "color": "blue",
+      "type": "creature",
+      "cmc": 2
+    },
+    {
+      "name": "Sower of Temptation",
+      "category": "creature",
+      "qty": "1",
+      "color": "blue",
+      "type": "creature",
+      "cmc": 4
+    },
+    {
+      "name": "Temporal Adept",
+      "category": "creature",
+      "qty": "1",
+      "color": "blue",
+      "type": "creature",
+      "cmc": 3
+    },
+    {
+      "name": "Vela the Night-Clad",
+      "category": "creature",
+      "qty": "1",
+      "color": "blue",
+      "type": "creature",
+      "cmc": 6
+    },
+    {
+      "name": "Venser, Shaper Savant",
+      "category": "creature",
+      "qty": "1",
+      "color": "blue",
+      "type": "creature",
+      "cmc": 4
+    },
+    {
+      "name": "Akoum Refuge",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Blood Crypt",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Bloodfell Caves",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Cavern of Souls",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Command Tower",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Crumbling Necropolis",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Crypt of the Eternals",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Dimir Aqueduct",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Dismal Backwater",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Dragonskull Summit",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Drowned Catacomb",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Evolving Wilds",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Exotic Orchard",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Island",
+      "category": "land",
+      "qty": "6",
+      "color": "",
+      "type": "basic",
+      "cmc": 0
+    },
+    {
+      "name": "Izzet Boilerworks",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Jwar Isle Refuge",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Mountain",
+      "category": "land",
+      "qty": "2",
+      "color": "",
+      "type": "basic",
+      "cmc": 0
+    },
+    {
+      "name": "Path of Ancestry",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Rakdos Carnarium",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Reliquary Tower",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Riptide Laboratory",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Smoldering Marsh",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Steam Vents",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Sulfur Falls",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Sunken Hollow",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Swamp",
+      "category": "land",
+      "qty": "3",
+      "color": "",
+      "type": "basic",
+      "cmc": 0
+    },
+    {
+      "name": "Swiftwater Cliffs",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Terramorphic Expanse",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Watery Grave",
+      "category": "land",
+      "qty": "1",
+      "color": "",
+      "type": "land",
+      "cmc": 0
+    },
+    {
+      "name": "Demonic Tutor",
+      "category": "sorcery",
+      "qty": "1",
+      "color": "black",
+      "type": "sorcery",
+      "cmc": 2
+    },
+    {
+      "name": "Dreadbore",
+      "category": "sorcery",
+      "qty": "1",
+      "color": "red",
+      "type": "sorcery",
+      "cmc": 2
+    },
+    {
+      "name": "Kindred Dominance",
+      "category": "sorcery",
+      "qty": "1",
+      "color": "black",
+      "type": "sorcery",
+      "cmc": 7
+    },
+    {
+      "name": "Rite of Replication",
+      "category": "sorcery",
+      "qty": "1",
+      "color": "blue",
+      "type": "sorcery",
+      "cmc": 4
+    },
+    {
+      "name": "Vandalblast",
+      "category": "sorcery",
+      "qty": "1",
+      "color": "red",
+      "type": "sorcery",
+      "cmc": 1
+    },
+    {
+      "name": "Commit",
+      "category": "instant",
+      "qty": "1",
+      "color": "blue",
+      "type": "instant",
+      "cmc": 4
+    },
+    {
+      "name": "Crosis's Charm",
+      "category": "instant",
+      "qty": "1",
+      "color": "blue",
+      "type": "instant",
+      "cmc": 3
+    },
+    {
+      "name": "Cyclonic Rift",
+      "category": "instant",
+      "qty": "1",
+      "color": "blue",
+      "type": "instant",
+      "cmc": 2
+    },
+    {
+      "name": "Dig Through Time",
+      "category": "instant",
+      "qty": "1",
+      "color": "blue",
+      "type": "instant",
+      "cmc": 8
+    },
+    {
+      "name": "Far",
+      "category": "instant",
+      "qty": "1",
+      "color": "blue",
+      "type": "instant",
+      "cmc": 2
+    },
+    {
+      "name": "Hero's Downfall",
+      "category": "instant",
+      "qty": "1",
+      "color": "black",
+      "type": "instant",
+      "cmc": 3
+    },
+    {
+      "name": "Insidious Will",
+      "category": "instant",
+      "qty": "1",
+      "color": "blue",
+      "type": "instant",
+      "cmc": 4
+    },
+    {
+      "name": "Mystic Confluence",
+      "category": "instant",
+      "qty": "1",
+      "color": "blue",
+      "type": "instant",
+      "cmc": 5
+    },
+    {
+      "name": "Polymorphist's Jest",
+      "category": "instant",
+      "qty": "1",
+      "color": "blue",
+      "type": "instant",
+      "cmc": 3
+    },
+    {
+      "name": "Rakdos Charm",
+      "category": "instant",
+      "qty": "1",
+      "color": "red",
+      "type": "instant",
+      "cmc": 2
+    },
+    {
+      "name": "Silumgar's Command",
+      "category": "instant",
+      "qty": "1",
+      "color": "blue",
+      "type": "instant",
+      "cmc": 5
+    },
+    {
+      "name": "Soul Manipulation",
+      "category": "instant",
+      "qty": "1",
+      "color": "gold",
+      "type": "instant",
+      "cmc": 3
+    },
+    {
+      "name": "Wretched Confluence",
+      "category": "instant",
+      "qty": "1",
+      "color": "black",
+      "type": "instant",
+      "cmc": 5
+    },
+    {
+      "name": "Commander's Sphere",
+      "category": "artifact",
+      "qty": "1",
+      "color": "colorless",
+      "type": "artifact",
+      "cmc": 3
+    },
+    {
+      "name": "Crystal Shard",
+      "category": "artifact",
+      "qty": "1",
+      "color": "colorless",
+      "type": "artifact",
+      "cmc": 3
+    },
+    {
+      "name": "Darksteel Ingot",
+      "category": "artifact",
+      "qty": "1",
+      "color": "colorless",
+      "type": "artifact",
+      "cmc": 3
+    },
+    {
+      "name": "Fellwar Stone",
+      "category": "artifact",
+      "qty": "1",
+      "color": "colorless",
+      "type": "artifact",
+      "cmc": 2
+    },
+    {
+      "name": "Nevinyrral's Disk",
+      "category": "artifact",
+      "qty": "1",
+      "color": "colorless",
+      "type": "artifact",
+      "cmc": 4
+    },
+    {
+      "name": "Sol Ring",
+      "category": "artifact",
+      "qty": "1",
+      "color": "colorless",
+      "type": "artifact",
+      "cmc": 1
+    },
+    {
+      "name": "Thought Vessel",
+      "category": "artifact",
+      "qty": "1",
+      "color": "colorless",
+      "type": "artifact",
+      "cmc": 2
+    },
+    {
+      "name": "Unstable Obelisk",
+      "category": "artifact",
+      "qty": "1",
+      "color": "colorless",
+      "type": "artifact",
+      "cmc": 3
+    },
+    {
+      "name": "Vanquisher's Banner",
+      "category": "artifact",
+      "qty": "1",
+      "color": "colorless",
+      "type": "artifact",
+      "cmc": 5
+    },
+    {
+      "name": "Worn Powerstone",
+      "category": "artifact",
+      "qty": "1",
+      "color": "colorless",
+      "type": "artifact",
+      "cmc": 3
+    }
+  ]
+}
