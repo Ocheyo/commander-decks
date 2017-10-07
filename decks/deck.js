@@ -1,6 +1,6 @@
 const comm = document.createElement('h2'), commImg = document.createElement('img'), list = document.createElement('nav');
 
-const prepCardName = (cardName) => cardName.toLowerCase().replace(/ /g, '-').replace(/[^\w-]/, '');
+const prepCardName = (cardName) => cardName.toLowerCase().replace(/( \/ | )/g, '-').replace(/[^\w-]/, '');
 
 const buildURL = (cardName) => `http://tappedout.net/mtg-card/${prepCardName(cardName)}/`;
 

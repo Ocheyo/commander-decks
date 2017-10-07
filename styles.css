@@ -77,6 +77,13 @@ nav li {
 
 .menu {
 	padding: 5 0 5 0;
+	width: 400px;
+}
+
+.menu li {
+	display: block;
+	height: 75px;
+	border: 1px solid white;
 }
 
 .menu a:link {
