@@ -8,6 +8,11 @@ const buildLinkList = (myDecks) => {
 		anchor.href = baseURL + deck.link;
 		anchor.innerText = deck.name;
 		let listItem = document.createElement('li');
+		let imgage = document.createElement('img');
+		imgage.src=(deck.img);
+		imgage.display = 'inline-block';
+		imgage.alt = deck.img;
+		listItem.append(imgage);
 		listItem.append(anchor);
 		list[0].append(listItem);
 	});

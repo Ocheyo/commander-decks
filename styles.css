@@ -34,6 +34,10 @@ li {
 	font-weight: "bold";
 }
 
+a {
+	text-decoration: none;
+}
+
 nav {
 	width: 200px;
 	border: 2px solid black;
@@ -78,6 +82,12 @@ nav li {
 .menu {
 	padding: 5 0 5 0;
 	width: 400px;
+}
+
+.menu img {
+	height: 75px;
+	width: 100px;
+	border: 1px solid white;
 }
 
 .menu li {
