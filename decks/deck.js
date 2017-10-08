@@ -5,7 +5,7 @@ const prepCardName = (cardName) => cardName.toLowerCase().replace(/( \/ | )/g, '
 const buildURL = (cardName) => `http://tappedout.net/mtg-card/${prepCardName(cardName)}/`;
 
 const buildCommanderImg = (commander) => {
-  commImg.src = 'http://gatherer.wizards.com/Handlers/Image.ashx?name=' + commander.name.replace(/ /g, '%20').replace(/'/g, '%27').replace(/\//, '//') + '&type=card&.jpg';
+  commImg.src = 'http://gatherer.wizards.com/Handlers/Image.ashx?name=' + commander.name.replace(/\//g, '//').replace(/ /g, '%20').replace(/'/g, '%27') + '&type=card&.jpg';
   commImg.alt = commander.name;
   commImg.className = 'absolute';
   commImg.id = 'commander-image';
