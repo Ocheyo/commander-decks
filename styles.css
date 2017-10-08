@@ -80,9 +80,9 @@ nav li {
 }
 
 .menu {
-	padding: 5 0 5 0;
 	width: 400px;
 	border: 1px solid black;
+	padding: 0;
 }
 
 .menu img {
@@ -109,7 +109,6 @@ nav li {
 
 .menu a {
 	font-size: 20px;
-	margin: auto;
 }
 
 .rotate {
