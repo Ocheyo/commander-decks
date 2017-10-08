@@ -7,12 +7,16 @@ const buildLinkList = (myDecks) => {
 		let anchor = document.createElement('a');
 		anchor.href = baseURL + deck.link;
 		anchor.innerText = deck.name;
+		anchor.display = "inline";
+
+		let image = document.createElement('img');
+		image.src=(deck.img);
+		image.display = 'inline';
+		image.float = 'left';
+		image.alt = deck.img;
+
 		let listItem = document.createElement('li');
-		let imgage = document.createElement('img');
-		imgage.src=(deck.img);
-		imgage.display = 'inline-block';
-		imgage.alt = deck.img;
-		listItem.append(imgage);
+		listItem.append(image);
 		listItem.append(anchor);
 		list[0].append(listItem);
 	});
