@@ -27,7 +27,6 @@ h3 {
 ul {
 	list-style-type: none;
 	margin: 0 auto;
-	padding: 0 auto;
 }
 
 li {
@@ -93,8 +92,6 @@ nav li {
 }
 
 .menu li {
-	display: block;
-	width: 100%;
 	height: 77px;
 	border: 1px solid black;
 }
@@ -108,6 +105,8 @@ nav li {
 }
 
 .menu a {
+	display: inline-block;
+	max-width: 220px; 
 	font-size: 20px;
 }
 
