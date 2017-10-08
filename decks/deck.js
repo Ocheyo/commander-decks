@@ -23,7 +23,7 @@ const buildCardAnchor = (card) => {
 	anchor.href = link;
   anchor.innerText = (card.qty > 1) ? card.qty + 'x ' + card.name : card.name;
   anchor.target = '_blank';
-  anchor.setAttribute('data-image', 'http://gatherer.wizards.com/Handlers/Image.ashx?name=' + card.name.replace(/ /g, '%20').replace(/'/g, '%27') + '&type=card&.jpg');
+  anchor.setAttribute('data-image', 'http://gatherer.wizards.com/Handlers/Image.ashx?name=' + card.name.replace(/ /g, '%20').replace(/'/g, '%27').replace(/\//g, '//') + '&type=card&.jpg');
   anchor.addEventListener('mouseenter', mouseEnterEvent);
   anchor.addEventListener('mouseleave', mouseLeaveEvent);
 	return anchor;
