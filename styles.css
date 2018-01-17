@@ -78,6 +78,8 @@ nav li {
 	left: -400px;
 }
 
+
+
 .menu {
 	width: 400px;
 	border: 1px solid black;
@@ -105,7 +107,7 @@ nav li {
 }
 
 .menu a {
-	display: inline-block;
+	display: inline;
 	max-width: 220px; 
 	font-size: 20px;
 }

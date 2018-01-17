@@ -11,12 +11,13 @@ const buildLinkList = (myDecks) => {
 
 		let image = document.createElement('img');
 		image.src=(deck.img);
-		image.display = 'inline';
-		image.float = 'left';
 		image.alt = deck.img;
+		let imageAnchor = document.createElement('a');
+		imageAnchor.href = anchor.href; 
+		imageAnchor.appendChild(image);
 
 		let listItem = document.createElement('li');
-		listItem.append(image);
+		listItem.append(imageAnchor);
 		listItem.append(anchor);
 		list[0].append(listItem);
 	});
