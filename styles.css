@@ -1,4 +1,28 @@
 /* ****************** */
+/* *******FONT******* */
+/* ****************** */
+@font-face {
+	font-family: 'beleren-bold';
+	src: url("Fonts/beleren-bold.ttf");
+}
+@font-face {
+	font-family: 'belerensmallcaps';
+	src: url("Fonts/belerensmallcaps-bold.ttf");
+}
+@font-face {
+	font-family: 'matrixb';
+	src: url("Fonts/matrixb.ttf");
+}
+@font-face {
+	font-family: 'MatrixBold';
+	src: url("Fonts/MatrixBold.ttf");
+}
+@font-face {
+	font-family: 'relay-medium';	
+	src: url("Fonts/relay-medium.ttf");
+}
+
+/* ****************** */
 /* *******TAGS******* */
 /* ****************** */
 
@@ -9,20 +33,28 @@ body {
 	background-repeat: repeat;
 	width: 600px;
 	margin-bottom: 100px;
-	font-family: Georgia, Helvetica;
 }
 
 header {
 	position: relative;
 }
 
-h3, h1, p {
+h3, h1 {
 	color: #ffffff;
+	font-family: belerensmallcaps-bold;
+	font-size: 35px;
+}
+
+p {
+	font-family: matrixb;
+	color: #ffffff;
+	font-size: 17px;
 }
 
 h3 {
 	margin: 0 auto;
 	padding-top: 10px;
+	font-size: 25px;
 }
 
 ul {
@@ -31,7 +63,7 @@ ul {
 }
 
 li {
-	font-weight: "bold";
+	font-family: MatrixBold;
 }
 
 a {
@@ -45,6 +77,7 @@ nav {
 
 nav a {
 	color: black;
+	font-family: matrixb;
 }
 
 nav li {
@@ -95,6 +128,7 @@ nav li {
 .menu li {
 	height: 77px;
 	border: 1px solid black;
+	font-family: MatrixBold;
 }
 
 .menu a:link {
@@ -108,7 +142,7 @@ nav li {
 .menu a {
 	display: inline;
 	max-width: 220px; 
-	font-size: 20px;
+	font-size: 25px;
 }
 
 .rotate {
@@ -156,6 +190,8 @@ nav li {
 
 #commander a {
 	color: #ffcc00;
+	font-family: belerensmallcaps-bold;
+	font-size: 25px;
 }
 
 #desc {
@@ -167,6 +203,8 @@ nav li {
 	padding: 6 0 0 0;
 	text-align: left;
 	position: relative;
+	font-family: relay-medium;
+	font-size: 17px;
 }
 
 #nav {
